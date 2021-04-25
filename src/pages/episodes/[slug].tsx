@@ -60,7 +60,7 @@ export default function Episode({ episode }: EpisodeProps) {
 }
 
 export const  getStaticPaths: GetStaticPaths = async () => {
-    const { data } = await api.get('episodes', {
+    const { data } = await api.get('api/igcgmusic', {
         params: {
             _limit: 2,
             _sort: 'published_at',
