@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'https://igcgmusic.vercel.app/'
+    baseURL: 'https://igcg-next.vercel.app/'
 })
