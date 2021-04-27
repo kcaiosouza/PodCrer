@@ -78,14 +78,14 @@ export const  getStaticPaths: GetStaticPaths = async () => {
     
     return {
         paths,
-        fallback: 'blocking'
+        fallback: true
     }
 }
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const { slug } = ctx.params;
 
-    const { data } = await api.get(`/episodes/${slug}`)
+    const { data } = await api.get(`/api/igcgmusic/${slug}`)
 
     const episode = {
         id: data.id,
