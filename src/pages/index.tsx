@@ -20,12 +20,12 @@ type Episode = {
     durationAsString: string;
     url: string;
     publishedAt: string;
-}
+};
 
 type HomeProps = {
   latestEpisodes: Episode[];
   allEpisodes: Episode[];
-}
+};
 
 export default function Home({ allEpisodes, latestEpisodes }: HomeProps) {
   const { playList } = useContext(PlayerContexts)
