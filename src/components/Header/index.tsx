@@ -10,7 +10,8 @@ export function  Header() {
 
     return(
         <header className={styles.headerContainer}>
-            <img src="/logo.svg" alt="PodCrer"/>
+            <img width={60} height={60} src="/headphone.svg" alt="IGCGMusic"/>
+            <img width={192} height={84} src="/logo.svg" alt="IGCGMusic"/>
 
             <p>Desfrutar é bem melhor!</p>
 

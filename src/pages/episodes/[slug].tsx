@@ -4,6 +4,7 @@ import { api } from '../../services/api';
 import ptBR from 'date-fns/locale/pt-BR';
 import Link from 'next/link';
 import { GetStaticPaths, GetStaticProps } from 'next';
+import Head from 'next/head';
 
 import styles from './episode.module.scss';
 import Image from 'next/image';
@@ -30,6 +31,11 @@ export default function Episode({ episode }: EpisodeProps) {
 
     return (
         <div className={styles.episode}>
+            <Head>
+                <title>  
+                    {episode.title} - IGCGMusic
+                </title>
+            </Head>
             <div className={styles.thumbnailContainer}>
                 <Link href="/">
                     <button type="button">
