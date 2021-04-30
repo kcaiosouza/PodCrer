@@ -126,7 +126,7 @@ export function  Player() {
                         <img src="/shuffle.svg" alt="Embaralhar"/>
                     </button>
                     <button type="button" onClick={playPrevious} disabled={!episode || !hasPrevious}>
-                        <img src="/play-previous.svg" alt="Tocar podcast anterior"/>
+                        <img src="/play-previous.svg" alt="Tocar música anterior"/>
                     </button>
                     <button type="button" className={styles.playButton} disabled={!episode} onClick={togglePlay}>
                         { isPlaying 
@@ -134,7 +134,7 @@ export function  Player() {
                         : <img src="/play.svg" alt="Tocar"/> }
                     </button>
                     <button type="button" onClick={playNext} disabled={!episode || !hasNext}>
-                        <img src="/play-next.svg" alt="Tocar podcast posterior"/>
+                        <img src="/play-next.svg" alt="Tocar música posterior"/>
                     </button>
                     <button type="button" disabled={!episode} onClick={toggleLoop} className={isLooping ? styles.isActive : ''}>
                         <img src="/repeat.svg" alt="Repetir"/>
