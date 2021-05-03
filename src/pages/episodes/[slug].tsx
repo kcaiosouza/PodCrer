@@ -20,11 +20,11 @@ type Episode = {
     durationAsString: string;
     url: string;
     publishedAt: string;
-};
+}
 
 type EpisodeProps = {
     episode: Episode;
-};
+}
 
 export default function Episode({ episode }: EpisodeProps) {
     const { play } = usePlayer();
