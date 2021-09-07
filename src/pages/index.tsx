@@ -43,7 +43,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
     <HomepageComponent>
         
       <Head>
-        <title>Home | Podcastr</title>
+        <title>Home | IGCGMusic</title>
       </Head>
 
       <LatestEpisodes>
@@ -87,8 +87,8 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
             <thead>
               <tr>
                 <th></th>
-                <th>Podcast</th>
-                <th>Integrantes</th>
+                <th>CDs</th>
+                <th>Autores</th>
                 <th>Data</th>
                 <th>Duração</th>
                 <th></th>
@@ -150,7 +150,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                       <span>{episode.durationAsString}</span>
                     </EpisodeDetails>
 
-                    <button type="button" onClick={() => playList(episodeList, index)}>
+                    <button type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
                       <img src="/play-green.svg" alt="Tocar episódio"/>
                     </button>
                   </li>
@@ -166,7 +166,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 export const getStaticProps: GetStaticProps = async () => {
   const { data } = await api.get('episodes', {
     params: {
-      _limit: 12,
+      _limit: 1000,
       _sort: 'published_at',
       _order: 'desc',
     }

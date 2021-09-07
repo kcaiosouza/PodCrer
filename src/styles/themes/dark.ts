@@ -2,16 +2,16 @@ export default {
   title: 'dark',
 
   colors: {
-    primary300: '#9f75ff',
-    primary400: '#9164fa',
-    primary500: '#8257e5',
-    primary800: '#6f48c9',
+    primary300: '#B3CDBE',
+    primary400: '#a1b8aa',
+    primary500: '#91a79a',
+    primary800: '#494d4b',
 
     secondary: '#04d361',
 
-    backgroundDeep: '#1C2B33',
-    backgroundPrimary: '#263238',
-    backgroundSecondary: '#37474F',
+    backgroundDeep: '#161b22',
+    backgroundPrimary: '#0d1117',
+    backgroundSecondary: '#171b22',
 
     text50: '#494d4b',
     text100: '#808080',

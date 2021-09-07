@@ -1,133 +1,198 @@
 {
   "episodes": [
     {
-      "id": "a-importancia-da-contribuicao-em-open-source",      
-      "title": "Faladev #30 | A importância da contribuição em Open Source",
-      "members": "Dego Fernandes, João Pedro, Diego Haz e Bruno Lemos",
+      "id": "webradio-igcg",      
+      "title": "Web Rádio IGCG",
+      "members": "Hinos 24h por dia",
       "published_at": "2021-01-22 16:35:40",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+      "thumbnail": "http://www.igrejaemcampinagrande.com.br/image/LogoRadio06_Transp.png",
       "description": "<p>Nesse episódio do Faladev, Diego Fernandes se reúne com João Pedro Schmitz, Bruno Lemos e Diego Haz, para discutir sobre a importância da contribuição open source e quais desafios circulam na comunidade.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
-        "type": "audio/x-m4a",
-        "duration": 3981
+        "url": "http://0.tcp.sa.ngrok.io:11288/;stream.mp3",
+        "type": "audio/mp3",
+        "duration": 86400
       }
     },
     {
-      "id": "uma-conversa-sobre-programacao-funcional-e-orientacao-a-objetos",      
-      "title": "Faladev #29 | Duas perspectivas diferentes na mesa: uma conversa sobre PF e OOP",
-      "members": "Dego Fernandes, Dani Leão, Laura Beatris e Rafael Camarda",
+      "id": "288-alumiar",      
+      "title": "CD 288 | Alumiar",
+      "members": "288 Temple",
       "published_at": "2021-01-15 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/funcional.jpg",
+      "thumbnail": "https://288oficial.com/wp-content/uploads/2021/03/Album-Alumiar-05.jpg",
       "description": "<p>Diego e Dani receberam Laura Beatris e Rafael Camarda na mesa do Faladev para conversarem sobre programação funcional e programação orientada a objetos.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/funcional.m4a",
-        "type": "audio/x-m4a",
-        "duration": 4237
+        "url": "https://igcgcloud.netlify.app/CD-288/alumiar.mp3",
+        "type": "audio/mp3",
+        "duration": 229
       }
     },
     {
-      "id": "barreiras-e-solucoes-propostas-por-micro-servicos",      
-      "title": "Faladev #28 | Por trás de barreiras e soluções propostas por micro-serviços",
-      "members": "Dego Fernandes, Dani Leão, Wesley Williams e Lucas Santos",
+      "id": "288-god-works",      
+      "title": "CD 288 | God Works",
+      "members": "288 Temple",
       "published_at": "2021-01-08 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/microservicos.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288godworks.png",
       "description": "<p>Os desenvolvedores Wesley Willians e Lucas Santos foram convidados para este Faladev para ter uma conversa sobre o que são micro-serviços e quais são os desafios e as barreiras de sua aplicação.</p><p>Nessa edição, Diego Fernandes e Daniele Evangelista guiam a conversa levantando tópicos e questionamentos relevantes sobre o assunto.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/microservicos.m4a",
-        "type": "audio/x-m4a",
-        "duration": 5506
+        "url": "https://igcgcloud.netlify.app/CD-288/godworks.mp3",
+        "type": "audio/mp3",
+        "duration": 177
       }
     },
     {
-      "id": "aplicacao-de-arquiteturas-mvc-e-clean-architecture-na-pratica",      
-      "title": "Faladev #27 | Aplicação de arquiteturas MVC e CA na prática",
-      "members": "Dego Fernandes, Dani Leão, Otávio Lemos e Rodrigo Branas",
+      "id": "288-em-meio-a-tribulacao",      
+      "title": "CD 288 | Em Meio à Tribulação",
+      "members": "288 Temple",
       "published_at": "2020-12-18 14:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/clean.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288emmeioatribulacao.png",
       "description": "<p>Diego Fernandes e Daniele Evangelista receberam Otávio Lemos e Rodrigo Branas para bater um papo sobre arquiteturas modernas de desenvolvimento, aplicadas na indústria da tecnologia.</p><p>Quais são os fundamentos, os princípios e a importância de debater arquiteturas neste ecossistema?</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/clean.m4a",
-        "type": "audio/x-m4a",
-        "duration": 5044
+        "url": "https://igcgcloud.netlify.app/CD-288/emmeioatribulacao.mp3",
+        "type": "audio/mp3",
+        "duration": 190
       }
     },
     {
-      "id": "entrevista-jose-valim-criador-do-elixir",      
-      "title": "Faladev #26 | Especial: entrevista exclusiva com José Valim, criador da linguagem Elixir",
-      "members": "Dego Fernandes e José Valim",
+      "id": "288-na-minha-angustia",      
+      "title": "CD 288 | Na Minha Angústia",
+      "members": "288 Temple",
       "published_at": "2020-12-04 15:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/josevalim.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288naminhaangustia.png",
       "description": "<p>Nesta edição especial de final de temporada tivemos a oportunidade de ter uma conversa com José Valim, dev brasileiro que criou a linguagem de programação Elixir — utilizada internacionalmente em diversas tecnologias, incluindo Discord e Pinterest.</p><p>O assunto da semana girou em diversos processos envolvidos na criação de uma linguagem nova, que propõe ser uma alternativa eficiente no mercado da tecnologia.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/jose-valim.m4a",
-        "type": "audio/x-m4a",
-        "duration": 4396
+        "url": "https://igcgcloud.netlify.app/CD-288/naminhaangustia.mp3",
+        "type": "audio/mp3",
+        "duration": 203
       }
     },
     {
-      "id": "o-que-e-ui-ux",      
-      "title": "Faladev #25 | O que é UX/UI?",
-      "members": "Dego Fernandes, Tiago Luchtenberg e Thainan Librelon",
+      "id": "288-nao-temas",      
+      "title": "CD 288 | Não Temas",
+      "members": "288 Temple",
       "published_at": "2020-10-30 14:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/design.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288templedefault.png",
       "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse episódio, Diego Fernandes se reúne com Thainan Librelon e Tiago Luchtenberg para discutir sobre: Desenvolvedor pode fazer o trabalho do UI/UX, qual impacto? Qual é o momento ideal pra ter pessoas especializadas em UX e UI? E afinal, o que é UI e o que é UX?</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/design.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2715
+        "url": "https://igcgcloud.netlify.app/CD-288/naotemas.mp3",
+        "type": "audio/mp3",
+        "duration": 154
       }
     },
     {
-      "id": "como-virar-lider-desenvolvimento",      
-      "title": "Faladev #24 | Como virar líder de desenvolvimento?",
-      "members": "Dego Fernandes, João Paulo e Cleiton Souza",
+      "id": "288-paciencia",      
+      "title": "CD 288 | Paciência",
+      "members": "288 Temple",
       "published_at": "2020-10-23 14:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/lider-desenvolvimento.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288templedefault.png",
       "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev. Nesse episódio, Diego Fernandes se reúne com Cleiton Souza e João Paulo de Magalhães para discutir sobre liderança, considerando aspectos profissionais, técnicos e até mesmo emocionais, o que envolve ser um líder de desenvolvimento? Afinal, o que é um líder de desenvolvimento?</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/lider-desenvolvimento.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2917
+        "url": "https://igcgcloud.netlify.app/CD-288/paciencia.mp3",
+        "type": "audio/mp3",
+        "duration": 260
       }
     },
     {
-      "id": "comunidades-e-tecnologia",      
-      "title": "FalaDev #23 | O que comunidades têm a ver com tecnologia?",
-      "members": "Dego Fernandes, Isabela Castilho e João Inácio",
+      "id": "288-espelho",      
+      "title": "CD 288 | Espelho",
+      "members": "288 Worship",
       "published_at": "2020-10-16 13:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
       "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse primeiro episódio da nova temporada, Diego Fernandes se reúne com Isabela Castilho e João Inácio Neto (Biro) para discutir sobre comunidades e o impacto que elas exercem na carreira de devs em busca do próximo nível. Afinal, O que é uma comunidade e o que tem a ver com tecnologia?</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
-        "type": "audio/x-m4a",
-        "duration": 2677
+        "url": "https://igcgcloud.netlify.app/CD-288/espelho.mp3",
+        "type": "audio/mp3",
+        "duration": 240
       }
     },
     {
-      "id": "typescript-vale-a-pena",      
-      "title": "FalaDev #22 - TypeScript vale a pena? JavaScript perde sentido?",
-      "members": "Dego Fernandes, Mayk Brito e João Pedro",
+      "id": "288-sou-livre",      
+      "title": "CD 288 | Sou Livre",
+      "members": "288 Worship",
       "published_at": "2020-05-04 14:49:35",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/typescript.jpg",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
       "description": "<p>Três programadores conversam sobre TypeScript.</p><p>Vamos discutir a usabilidade e as previsões da linguagem no cenário da programação.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
-        "type": "audio/x-m4a",
-        "duration": 1772
+        "url": "https://igcgcloud.netlify.app/CD-288/soulivre.mp3",
+        "type": "audio/mp3",
+        "duration": 201
       }
     },
     {
-      "id": "estrategias-de-autenticacao-jwt-oauth",      
-      "title": "FalaDev #21 - Estratégias de autenticação, JWT, OAuth, qual usar?",
-      "members": "Dego Fernandes, Higo Ribeiro e Guilherme Pellizzetti",
+      "id": "288-em-teus-bracos",      
+      "title": "CD 288 | Em Teus Braços",
+      "members": "288 Worship",
       "published_at": "2020-04-09 20:00:00",
-      "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/autenticacao.jpg",
-      "description": "<p>Três programadores conversam sobre estratégia de autenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
+      "description": "<p>Três programadores conversam sobre estratégia de ahttps://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/utenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
       "file": {
-        "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
-        "type": "audio/x-m4a",
-        "duration": 1463
+        "url": "https://igcgcloud.netlify.app/CD-288/emteusbracos.mp3",
+        "type": "audio/mp3",
+        "duration": 317
+      }
+    },
+    {
+      "id": "288-de-gloria-em-gloria",      
+      "title": "CD 288 | De Glória em Glória",
+      "members": "288 Worship",
+      "published_at": "2020-04-14 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
+      "description": "<p>Três programadores conversam sobre estratégia de ahttps://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/utenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/CD-288/degloriaemgloria.mp3",
+        "type": "audio/mp3",
+        "duration": 273
+      }
+    },
+    {
+      "id": "288-tu-reinas",      
+      "title": "CD 288 | Tu Reinas",
+      "members": "288 Worship",
+      "published_at": "2020-04-13 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
+      "description": "<p>Três programadores conversam sobre estratégia de ahttps://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/utenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/CD-288/tureinas.mp3",
+        "type": "audio/mp3",
+        "duration": 223
+      }
+    },
+    {
+      "id": "288-um-convite-a-gloria",      
+      "title": "CD 288 | Um Convite à Glória",
+      "members": "288 Worship",
+      "published_at": "2020-04-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
+      "description": "<p>Três programadores conversam sobre estratégia de ahttps://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/utenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/CD-288/umconviteagloria.mp3",
+        "type": "audio/mp3",
+        "duration": 270
+      }
+    },
+    {
+      "id": "288-longe-estava-eu",      
+      "title": "CD 288 | Longe Estava Eu",
+      "members": "288 Worship",
+      "published_at": "2020-04-11 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
+      "description": "<p>Três programadores conversam sobre estratégia de ahttps://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/utenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/CD-288/longeestavaeu.mp3",
+        "type": "audio/mp3",
+        "duration": 278
+      }
+    },
+    {
+      "id": "288-gloria-dai-doxologia",      
+      "title": "CD 288 | Glória Dai (Doxologia)",
+      "members": "288 Worship",
+      "published_at": "2020-04-12 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/cd288espelho.png",
+      "description": "<p>Três programadores conversam sobre estratégia de ahttps://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/utenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/CD-288/gloriadaidoxologia.mp3",
+        "type": "audio/mp3",
+        "duration": 264
       }
     }
   ]

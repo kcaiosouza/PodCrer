@@ -5,6 +5,7 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
   }
 
   /* :root {
@@ -18,10 +19,10 @@ export default createGlobalStyle`
 
     --green-500: #04d361;
 
-    --purple-300: #9f75ff;
-    --purple-400: #9164fa;
-    --purple-500: #8257e5;
-    --purple-800: #6f48c9;
+    --purple-300: #B3CDBE;
+    --purple-400: #a1b8aa; 
+    --purple-500: #91a79a;
+    --purple-800: #6f8076;
   } */
 
   @media (min-width: 1080px) {

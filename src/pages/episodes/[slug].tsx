@@ -37,7 +37,7 @@ export default function Episode({ episode }: EpisodeProps) {
     <EpisodeContainer>
       
       <Head>
-        <title>{episode.title} | Podcastr</title>
+        <title>{episode.title} | IGCGMuisc</title>
       </Head>
 
       <ThumbnailContainer>

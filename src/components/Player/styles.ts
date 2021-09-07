@@ -142,7 +142,7 @@ const EmptyPlayer = styled.div`
   border-radius: 1.5rem;
   background: linear-gradient(
     143.8deg,
-    rgba(145, 100, 250, 0.8) 0%,
+    rgba(179, 205, 190, 0.8) 0%,
     rgba(0, 0, 0, 0) 100%
   );
 

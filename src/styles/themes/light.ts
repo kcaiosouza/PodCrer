@@ -2,10 +2,10 @@ export default {
   title: 'light',
 
   colors: {
-    primary300: '#9f75ff',
-    primary400: '#9164fa',
-    primary500: '#8257e5',
-    primary800: '#6f48c9',
+    primary300: '#B3CDBE',
+    primary400: '#a1b8aa',
+    primary500: '#91a79a',
+    primary800: '#494d4b',
 
     secondary: '#04d361',
 
