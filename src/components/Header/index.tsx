@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import Switch from 'react-switch';
 import DarkModeToggle from "react-dark-mode-toggle";
 
 import format from 'date-fns/format';
@@ -25,7 +24,7 @@ export function Header(props: Props) {
 
   return (
     <HeaderContainer>
-      <img src={ title === 'light' ? "/logo.svg" : "/logo-light.svg"} alt="Logo"/>
+      <img width={250} src={ title === 'light' ? "/logoigcg.svg" : "/logoigcg-light.svg"} alt="Logo"/>
 
       <p>Desfrutar é bem melhor</p>
       <span>{currentDate}</span>
