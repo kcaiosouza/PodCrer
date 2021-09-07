@@ -81,7 +81,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         </LatestEpisodes>
 
         <AllEpisodes>
-          <h2>Todos episódios</h2>
+          <h2>Todos os CDs</h2>
 
           <AllEpisodesTable cellSpacing={0}>
             <thead>
