@@ -87,7 +87,7 @@ export function Player() {
         </CurrentEpisode>
       ) : (
         <EmptyPlayer>
-          <strong>Selecione um podcast para ouvir</strong>
+          <strong>Selecione uma música para ouvir</strong>
         </EmptyPlayer>
       ) }
 

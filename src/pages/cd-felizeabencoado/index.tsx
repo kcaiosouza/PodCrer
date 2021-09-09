@@ -7,11 +7,11 @@ import Head from 'next/head';
 import { format, parseISO } from 'date-fns'; //parseISO pega uma string e converte para um Date do JS
 import ptBR from 'date-fns/locale/pt-BR';
 
-import { api } from '../services/api'; //fakeapi
-import { usePlayer } from '../contexts/PlayerContext';
-import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
+import { api } from '../../services/api'; //fakeapi
+import { usePlayer } from '../../contexts/PlayerContext';
+import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
-import { AllEpisodes, EpisodeDetails, HomepageComponent, LatestEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard } from '../styles/index';
+import { AllEpisodes, EpisodeDetails, HomepageComponent, LatestEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious } from '../../styles/index';
 
 type Episode = {
   id: string;
@@ -34,7 +34,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeProps) {
   const { playList } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
@@ -43,33 +43,43 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
     <HomepageComponent>
         
       <Head>
-        <title>Home | IGCGMusic</title>
+        <title>CD Voz e Violão | IGCGMusic</title>
       </Head>
 
       <LatestEpisodes>
-        <h2>Últimos lançamentos</h2>
+        <Link href={'/'}>
+            <ButtomPrevious>
+            <img src="/arrow-left.svg" alt="Voltar"/>
+            <h3> Voltar</h3>
+            </ButtomPrevious>
+        </Link>
+        <h2>Destaques</h2>
         <ul>
-          {latestEpisodes.map((data) =>{
+          {latestEpisodes.map((episode, index) =>{
             return (
-              <li key={data.id}>
+              <li key={episode.id}>
                 <ImageContainer>
                   <Image 
                     width={192}
                     height={192} 
-                    src={data.thumbnail} 
-                    alt={data.title}
+                    src={episode.thumbnail} 
+                    alt={episode.title}
                     objectFit="cover"
                   />
                 </ImageContainer>
 
                 <EpisodeDetails>
-                  <Link href={`/${data.id}`}>
-                    <a>{data.title}</a>
+                  <Link href={`/music/${episode.id}`}>
+                    <a>{episode.title}</a>
                   </Link>
-                  <p>{data.members}</p>
-                  <span>{data.publishedAt}</span>
-                  <span>{data.durationAsString}</span>
+                  <p>{episode.members}</p>
+                  <span>{episode.publishedAt}</span>
+                  <span>{episode.durationAsString}</span>
                 </EpisodeDetails>
+
+                <button type="button" onClick={() => playList(episodeList, index)}>
+                  <img src="/play-green.svg" alt="Tocar episódio"/>
+                </button>
               </li>
             )
           })}
@@ -77,39 +87,45 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         </LatestEpisodes>
 
         <AllEpisodes>
-          <h2>Todos os CDs</h2>
+          <h2>Todas as músicas</h2>
 
           <AllEpisodesTable cellSpacing={0}>
             <thead>
               <tr>
                 <th></th>
-                <th>CDs</th>
+                <th>Música</th>
                 <th>Autores</th>
                 <th>Data</th>
                 <th>Duração</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
-              {allEpisodes.map((data) =>{
+              {allEpisodes.map((episode, index) =>{
                 return (
-                  <tr key={data.id}>
+                  <tr key={episode.id}>
                     <td style={{width: 72}}>
                       <Image 
                         width={120}
                         height={120}
-                        src={data.thumbnail}
-                        alt={data.title}
+                        src={episode.thumbnail}
+                        alt={episode.title}
                         objectFit="cover"
                       />
                     </td>
                     <td>
-                      <Link href={`/${data.id}`}>
-                        <a>{data.title}</a>
+                      <Link href={`/music/${episode.id}`}>
+                        <a>{episode.title}</a>
                       </Link>
                     </td>
-                    <td>{data.members}</td>
-                    <td style={{width: 100}}>{data.publishedAt}</td>
-                    <td style={{width: 10}}>{data.durationAsString}</td>
+                    <td>{episode.members}</td>
+                    <td style={{width: 100}}>{episode.publishedAt}</td>
+                    <td>{episode.durationAsString}</td>
+                    <td>
+                      <button type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
+                        <img src="/play-green.svg" alt="Tocar episódio" />
+                      </button>
+                    </td>
                   </tr>
                 )
               })}
@@ -118,27 +134,31 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
           <AllEpisodesCard>
             <ul>
-              {allEpisodes.map((data) =>{
+              {allEpisodes.map((episode, index) =>{
                 return (
-                  <li key={data.id}>
+                  <li key={episode.id}>
                     <ImageContainer>
                       <Image 
                         width={192}
                         height={192} 
-                        src={data.thumbnail} 
-                        alt={data.title}
+                        src={episode.thumbnail} 
+                        alt={episode.title}
                         objectFit="cover"
                       />
                     </ImageContainer>
 
                     <EpisodeDetails>
-                      <Link href={`/${data.id}`}>
-                        <a>{data.title}</a>
+                      <Link href={`/music/${episode.id}`}>
+                        <a>{episode.title}</a>
                       </Link>
-                      <p>{data.members}</p>
-                      <span>{data.publishedAt}</span>
-                      <span>{data.durationAsString}</span>
+                      <p>{episode.members}</p>
+                      <span>{episode.publishedAt}</span>
+                      <span>{episode.durationAsString}</span>
                     </EpisodeDetails>
+
+                    <button type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
+                      <img src="/play-green.svg" alt="Tocar episódio"/>
+                    </button>
                   </li>
                 )
               })}
@@ -150,7 +170,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get('home', {
+  const { data } = await api.get('cdfelizeabencoado', {
     params: {
       _limit: 1000,
       _sort: 'published_at',
