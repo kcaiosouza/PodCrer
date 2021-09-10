@@ -95,30 +95,25 @@ const ImageContainer = styled.div`
   min-width: 6rem;
 `;
 
+const StyledButtom = styled.div`
+  background-color: ${props => props.theme.colors.primary500};
+  padding: 5px;
+  display: flex;
+  border-radius: 7px;
+
+  :hover {
+    cursor: pointer;
+  }
+`;
+
 const ButtomPrevious = styled.div`
   display: flex;
   align-items: center;
   margin: 0.5rem;
 
   h3 {
-    padding: 3px;
     color: #fff;
-    background-color: ${props => props.theme.colors.primary500};
-    border-radius: 0 7px 7px 0
-  }
-
-  img {
-    padding: 5px;
-    background-color: ${props => props.theme.colors.primary500};
-    border-radius: 7px 0 0 7px
-  }
-
-  h3:hover {
-    cursor: pointer;
-  }
-
-  img:hover {
-    cursor: pointer;
+    margin-left: 5px;
   }
 `;
 
@@ -326,4 +321,4 @@ const AllEpisodesCard = styled.section`
   }
 `;
 
-export { HomepageComponent, LatestEpisodes, EpisodeDetails, AllEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious};
+export { HomepageComponent, LatestEpisodes, EpisodeDetails, AllEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious, StyledButtom};

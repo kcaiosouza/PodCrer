@@ -547,6 +547,19 @@
         "type": "",
         "duration": 3242
       }
+    },
+    {
+      "id": "cd-senhoreuamoati",
+      "title": "CD Senhor, Eu Amo a Ti! ",
+      "members": "Editora Árvore da Vida",
+      "published_at": "2021-09-09 14:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2603
+      }
     }
   ],
   "doisoo": [
@@ -1033,6 +1046,164 @@
         "url": "https://igcgcloud.netlify.app/cd-felizeabencoado/sensivelaoteufalar.mp3",
         "type": "audio/mp3",
         "duration": 364
+      }
+    }
+  ],
+  "cdsenhoreuamoati": [
+    {
+      "id": "seaat-mais-perto-quero-estar",      
+      "title": "CD Senhor, eu amo a Ti | Mais Perto Quero Estar",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/maispertoqueroestar.mp3",
+        "type": "audio/mp3",
+        "duration": 300
+      }
+    },
+    {
+      "id": "seaat-e-teu",      
+      "title": "CD Senhor, eu amo a Ti | É Teu",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/eteu.mp3",
+        "type": "audio/mp3",
+        "duration": 0
+      }
+    },
+    {
+      "id": "seaat-graca-e-misericordia",      
+      "title": "CD Senhor, eu amo a Ti | Graça e Misericórdia",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/gracaemisericordia.mp3",
+        "type": "audio/mp3",
+        "duration": 208
+      }
+    },
+    {
+      "id": "seaat-nao-ha-outro-para-mim",      
+      "title": "CD Senhor, eu amo a Ti | Não Há Outro para Mim",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/naohaoutroparamim.mp3",
+        "type": "audio/mp3",
+        "duration": 181
+      }
+    },
+    {
+      "id": "seaat-sozinho",      
+      "title": "CD Senhor, eu amo a Ti | Sozinho",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/sozinho.mp3",
+        "type": "audio/mp3",
+        "duration": 232
+      }
+    },
+    {
+      "id": "seaat-imerso-o-senhor",      
+      "title": "CD Senhor, eu amo a Ti | Imerso, Ó Senhor",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/imersoosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 240
+      }
+    },
+    {
+      "id": "seaat-senhor-eu-amo-a-ti",      
+      "title": "CD Senhor, eu amo a Ti | Senhor, Eu Amo a Ti",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/senhoreuamoati.mp3",
+        "type": "audio/mp3",
+        "duration": 252
+      }
+    },
+    {
+      "id": "seaat-incondicional",      
+      "title": "CD Senhor, eu amo a Ti | Incondicional",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/incondicional.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "seaat-louvo-ao-senhor",      
+      "title": "CD Senhor, eu amo a Ti | Louvo ao Senhor",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/louvoaosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 218
+      }
+    },
+    {
+      "id": "seaat-mais-de-ti",      
+      "title": "CD Senhor, eu amo a Ti | Mais de Ti",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/maisdeti.mp3",
+        "type": "audio/mp3",
+        "duration": 188
+      }
+    },
+    {
+      "id": "seaat-a-frutificacao",      
+      "title": "CD Senhor, eu amo a Ti | A Frutificação",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/afrutificacao.mp3",
+        "type": "audio/mp3",
+        "duration": 251
+      }
+    },
+    {
+      "id": "seaat-amazing-grace",      
+      "title": "CD Senhor, eu amo a Ti | Amazing Grace",
+      "members": "EAV",
+      "published_at": "2020-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsenhoreuamoati.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-senhoreuamoati/amazinggrace.mp3",
+        "type": "audio/mp3",
+        "duration": 314
       }
     }
   ]

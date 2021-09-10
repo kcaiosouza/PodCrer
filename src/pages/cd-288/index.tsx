@@ -11,7 +11,7 @@ import { api } from '../../services/api'; //fakeapi
 import { usePlayer } from '../../contexts/PlayerContext';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
-import { AllEpisodes, EpisodeDetails, HomepageComponent, LatestEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious } from '../../styles/index';
+import { AllEpisodes, EpisodeDetails, HomepageComponent, LatestEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious, StyledButtom } from '../../styles/index';
 
 type Episode = {
   id: string;
@@ -47,12 +47,14 @@ export default function cddoo({ latestEpisodes, allEpisodes }: HomeProps) {
       </Head>
 
       <LatestEpisodes>
-        <Link href={'/'}>
-            <ButtomPrevious>
-            <img src="/arrow-left.svg" alt="Voltar"/>
-            <h3> Voltar</h3>
-            </ButtomPrevious>
-        </Link>
+        <ButtomPrevious>
+            <Link href={'/'}>
+            <StyledButtom>
+                <img src="/arrow-left.svg" alt="Voltar"/>
+                <h3> Voltar</h3>
+            </StyledButtom>
+            </Link>
+        </ButtomPrevious>
         <h2>Destaques</h2>
         <ul>
           {latestEpisodes.map((episode, index) =>{
