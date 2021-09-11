@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 //import usePersistedState from '../utils/usePersistedState';
@@ -13,7 +14,18 @@ import GlobalStyle from '../styles/global';
 import { AppComponent } from '../styles/app';
 import { PLayerContextProvider } from '../contexts/PlayerContext';
 
+//NProgress config
+import Router from 'next/router';
+import NProgress from 'nprogress';
+
+
 function MyApp({ Component, pageProps }) {
+
+  NProgress.configure({showSpinner: false});
+  Router.events.on("routeChangeStart", () => NProgress.start());
+  Router.events.on("routeChangeComplete", () => NProgress.done());
+  Router.events.on("routeChangeError", () => NProgress.done());
+
   const [theme, setTheme] = useState(light);
 
   const toggleTheme = () => {
@@ -21,6 +33,11 @@ function MyApp({ Component, pageProps }) {
   };
 
   return (
+    <>
+    <Head>
+      <script src='/nprogress.js'></script>
+      <link rel='stylesheet' href='/nprogress.css'/>
+    </Head>
     <PLayerContextProvider>
       <ThemeProvider theme={theme}>
         <AppComponent>
@@ -33,6 +50,7 @@ function MyApp({ Component, pageProps }) {
         </AppComponent>
       </ThemeProvider>
     </PLayerContextProvider>
+    </>
   );
 }
 
