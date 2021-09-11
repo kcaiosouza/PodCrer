@@ -34,7 +34,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function cdvozeviolao({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function cdsenhoreuamoati({ latestEpisodes, allEpisodes }: HomeProps) {
   const { playList } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
@@ -43,7 +43,7 @@ export default function cdvozeviolao({ latestEpisodes, allEpisodes }: HomeProps)
     <HomepageComponent>
         
       <Head>
-        <title>CD Voz e Violão | IGCGMusic</title>
+        <title>CD Senhor Eu Amo a Ti | IGCGMusic</title>
       </Head>
 
       <LatestEpisodes>

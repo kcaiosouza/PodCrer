@@ -34,7 +34,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function cdjesusnocontrole({ latestEpisodes, allEpisodes }: HomeProps) {
   const { playList } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
@@ -43,7 +43,7 @@ export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeP
     <HomepageComponent>
         
       <Head>
-        <title>CD Feliz e Abençoado | IGCGMusic</title>
+        <title>CD Jesus no Controle | IGCGMusic</title>
       </Head>
 
       <LatestEpisodes>
@@ -172,7 +172,7 @@ export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeP
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get('cdfelizeabencoado', {
+  const { data } = await api.get('cdjesusnocontrole', {
     params: {
       _limit: 1000,
       _sort: 'published_at',
