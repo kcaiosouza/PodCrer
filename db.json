@@ -792,6 +792,747 @@
         "type": "audio/mp3",
         "duration": 191
       }
+    },
+    {
+      "id": "ig-infinita-gratidao",      
+      "title": "CD Infinita Gratidão | Infinita Gratidão",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/infinitagratidao.mp3",
+        "type": "audio/mp3",
+        "duration": 292
+      }
+    },
+    {
+      "id": "ig-mananciais-de-agua-viva",      
+      "title": "CD Infinita Gratidão | Mananciais de Água Viva",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/mananciaisdeaguaviva.mp3",
+        "type": "audio/mp3",
+        "duration": 167
+      }
+    },
+    {
+      "id": "ig-como-nao-te-amar",      
+      "title": "CD Infinita Gratidão | Como Não Te Amar",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/comonaoteamar.mp3",
+        "type": "audio/mp3",
+        "duration": 278
+      }
+    },
+    {
+      "id": "ig-ilimitado-amor",      
+      "title": "CD Infinita Gratidão | Ilimitado Amor",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/ilimitadoamor.mp3",
+        "type": "audio/mp3",
+        "duration": 202
+      }
+    },
+    {
+      "id": "ig-o-falar-divino",      
+      "title": "CD Infinita Gratidão | O Falar Divino",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/ofalardivino.mp3",
+        "type": "audio/mp3",
+        "duration": 173
+      }
+    },
+    {
+      "id": "ig-renovados-de-dia-em-dia",      
+      "title": "CD Infinita Gratidão | Renovados de Dia em Dia",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/renovadosdediaemdia.mp3",
+        "type": "audio/mp3",
+        "duration": 215
+      }
+    },
+    {
+      "id": "ig-que-grande-amor",      
+      "title": "CD Infinita Gratidão | Que Grande Amor",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/quegrandeamor.mp3",
+        "type": "audio/mp3",
+        "duration": 198
+      }
+    },
+    {
+      "id": "ig-o-sopro-de-deus",      
+      "title": "CD Infinita Gratidão | O Sopro de Deus",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/osoprodedeus.mp3",
+        "type": "audio/mp3",
+        "duration": 162
+      }
+    },
+    {
+      "id": "ig-o-reinar-do-senhor",      
+      "title": "CD Infinita Gratidão | O Reinar do Senhor",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/oreinardosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 315
+      }
+    },
+    {
+      "id": "vec-vencedores-em-cristo",      
+      "title": "CD Vencedores em Cristo | Vencedores em Cristo",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/vencedoresemcristo.mp3",
+        "type": "audio/mp3",
+        "duration": 435
+      }
+    },
+    {
+      "id": "vec-quero-te-louvar",      
+      "title": "CD Vencedores em Cristo | Quero Te Louvar",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/querotelouvar.mp3",
+        "type": "audio/mp3",
+        "duration": 238
+      }
+    },
+    {
+      "id": "vec-converse-com-deus",      
+      "title": "CD Vencedores em Cristo | Converse com Deus",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/conversecomdeus.mp3",
+        "type": "audio/mp3",
+        "duration": 248
+      }
+    },
+    {
+      "id": "vec-a-mulher-samaritana",      
+      "title": "CD Vencedores em Cristo | A Mulher Samaritana",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/amulhersamaritana.mp3",
+        "type": "audio/mp3",
+        "duration": 365
+      }
+    },
+    {
+      "id": "vec-eu-quero-te-tocar",      
+      "title": "CD Vencedores em Cristo | Eu Quero Te Tocar",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/euquerotetocar.mp3",
+        "type": "audio/mp3",
+        "duration": 353
+      }
+    },
+    {
+      "id": "vec-a-cancao-de-jo",      
+      "title": "CD Vencedores em Cristo | A Canção de Jó",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/acancaodejo.mp3",
+        "type": "audio/mp3",
+        "duration": 233
+      }
+    },
+    {
+      "id": "vec-quebrantamento",      
+      "title": "CD Vencedores em Cristo | Quebrantamento",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/quebrantamento.mp3",
+        "type": "audio/mp3",
+        "duration": 317
+      }
+    },
+    {
+      "id": "vec-filho",      
+      "title": "CD Vencedores em Cristo | Filho",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/filho.mp3",
+        "type": "audio/mp3",
+        "duration": 280
+      }
+    },
+    {
+      "id": "vec-deus-e-rei",      
+      "title": "CD Vencedores em Cristo | Deus e Rei",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/deuserei.mp3",
+        "type": "audio/mp3",
+        "duration": 263
+      }
+    },
+    {
+      "id": "vec-amigo-fiel",      
+      "title": "CD Vencedores em Cristo | Amigo Fiel",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/amigofiel.mp3",
+        "type": "audio/mp3",
+        "duration": 236
+      }
+    },
+    {
+      "id": "vec-nunca-vou-lhe-abandonar",      
+      "title": "CD Vencedores em Cristo | Nunca Vou Lhe Abandonar",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/nuncavoulheabandonar.mp3",
+        "type": "audio/mp3",
+        "duration": 442
+      }
+    },
+    {
+      "id": "vec-so-teu-amor-senhor",      
+      "title": "CD Vencedores em Cristo | Só Teu Amor Senhor",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/soteuamorsenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 162
+      }
+    },
+    {
+      "id": "vec-o-amor-jamais-acabara",      
+      "title": "CD Vencedores em Cristo | O Amor Jamais Acabará",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/oamorjamaisacabara.mp3",
+        "type": "audio/mp3",
+        "duration": 238
+      }
+    },
+    {
+      "id": "vec-eu-te-invocarei",      
+      "title": "CD Vencedores em Cristo | Eu Te Invocarei",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/euteinvocarei.mp3",
+        "type": "audio/mp3",
+        "duration": 246
+      }
+    },
+    {
+      "id": "sp-aquele-a-quem-sigo",      
+      "title": "CD Sublime Privilégio | Aquele a Quem Sigo",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/aqueleaquemsigo.mp3",
+        "type": "audio/mp3",
+        "duration": 227
+      }
+    },
+    {
+      "id": "sp-de-cristo-tao-somente",      
+      "title": "CD Sublime Privilégio | De Cristo Tão Somente",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/decristotaosomente.mp3",
+        "type": "audio/mp3",
+        "duration": 222
+      }
+    },
+    {
+      "id": "sp-o-amor-de-cristo",      
+      "title": "CD Sublime Privilégio | O Amor de Cristo",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/oamordecristo.mp3",
+        "type": "audio/mp3",
+        "duration": 264
+      }
+    },
+    {
+      "id": "sp-so-uma-vida-temos",      
+      "title": "CD Sublime Privilégio | Só Uma Vida Temos",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/soumavidatemos.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "sp-paz-no-coracao",      
+      "title": "CD Sublime Privilégio | Paz no Coração",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/paznocoracao.mp3",
+        "type": "audio/mp3",
+        "duration": 191
+      }
+    },
+    {
+      "id": "sp-unidade-genuina",      
+      "title": "CD Sublime Privilégio | Unidade Genuina",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/unidadegenuina.mp3",
+        "type": "audio/mp3",
+        "duration": 226
+      }
+    },
+    {
+      "id": "sp-sublime-privilegio",      
+      "title": "CD Sublime Privilégio | Sublime Privilégio",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/sublimeprivilegio.mp3",
+        "type": "audio/mp3",
+        "duration": 290
+      }
+    },
+    {
+      "id": "sp-quem-e-semelhante-a-ti",      
+      "title": "CD Sublime Privilégio | Quem é Semelhante a Ti",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/quemesemelhanteati.mp3",
+        "type": "audio/mp3",
+        "duration": 164
+      }
+    },
+    {
+      "id": "sp-para-onde-for-irei",      
+      "title": "CD Sublime Privilégio | Para Onde for Irei",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/paraondeforirei.mp3",
+        "type": "audio/mp3",
+        "duration": 247
+      }
+    },
+    {
+      "id": "sp-o-coracao-do-pai",      
+      "title": "CD Sublime Privilégio | O Coração do Pai",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/ocoracaodopai.mp3",
+        "type": "audio/mp3",
+        "duration": 244
+      }
+    },
+    {
+      "id": "sp-a-doce-hora",      
+      "title": "CD Sublime Privilégio | A Doce Hora",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/adocehora.mp3",
+        "type": "audio/mp3",
+        "duration": 297
+      }
+    },
+    {
+      "id": "vam-asas-de-aguia",      
+      "title": "CD Vinde a Mim | Asas de Águia",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/asasdeaguia.mp3",
+        "type": "audio/mp3",
+        "duration": 254
+      }
+    },
+    {
+      "id": "vam-junto-as-aguas-de-descanso",      
+      "title": "CD Vinde a Mim | Junto as Águas de Descanso",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/juntoasaguasdedescanco.mp3",
+        "type": "audio/mp3",
+        "duration": 225
+      }
+    },
+    {
+      "id": "vam-nao-viver-so-para-mim",      
+      "title": "CD Vinde a Mim | Não Viver Só Para Mim",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/naoviversoparamim.mp3",
+        "type": "audio/mp3",
+        "duration": 206
+      }
+    },
+    {
+      "id": "vam-firme-fundamento",      
+      "title": "CD Vinde a Mim | Firme Fundamento",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/firmefundamento.mp3",
+        "type": "audio/mp3",
+        "duration": 248
+      }
+    },
+    {
+      "id": "vam-vinde-a-mim",      
+      "title": "CD Vinde a Mim | Vinde a Mim",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/vindeamim.mp3",
+        "type": "audio/mp3",
+        "duration": 227
+      }
+    },
+    {
+      "id": "vam-todo-aquele-que-invocar",      
+      "title": "CD Vinde a Mim | Todo Aquele que Invocar",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/todoaquelequeinvocar.mp3",
+        "type": "audio/mp3",
+        "duration": 269
+      }
+    },
+    {
+      "id": "vam-jardim-de-amor",      
+      "title": "CD Vinde a Mim | Jardim de Amor",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/jardimdeamor.mp3",
+        "type": "audio/mp3",
+        "duration": 288
+      }
+    },
+    {
+      "id": "vam-sopra-em-mim-senhor",      
+      "title": "CD Vinde a Mim | Sopra em Mim Senhor",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/sobraemmimsenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 215
+      }
+    },
+    {
+      "id": "vam-eu-te-louvarei-por-todo-sempre",      
+      "title": "CD Vinde a Mim | Eu Te Louvarei por Todo Sempre",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/eutelouvareiportodosempre.mp3",
+        "type": "audio/mp3",
+        "duration": 204
+      }
+    },
+    {
+      "id": "vam-fonte-de-agua-viva",      
+      "title": "CD Vinde a Mim | Fonte de Água Viva",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/fontedeaguaviva.mp3",
+        "type": "audio/mp3",
+        "duration": 201
+      }
+    },
+    {
+      "id": "ai-oh-ele-e-o-espirito-em-nos",      
+      "title": "CD Alegria Inefável | Oh! Ele é o Espírito em Nós",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/oheleeoespiritoemnos.mp3",
+        "type": "audio/mp3",
+        "duration": 223
+      }
+    },
+    {
+      "id": "ai-alegira-inefavel",      
+      "title": "CD Alegria Inefável | Alegria Inefável",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/alegriainefavel.mp3",
+        "type": "audio/mp3",
+        "duration": 233
+      }
+    },
+    {
+      "id": "ai-temos-um-pai",      
+      "title": "CD Alegria Inefável | Temos um Pai",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/temosumpai.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "ai-temos-paz-com-deus",      
+      "title": "CD Alegria Inefável | Temos Paz com Deus",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/temospazcomdeus.mp3",
+        "type": "audio/mp3",
+        "duration": 173
+      }
+    },
+    {
+      "id": "ai-tesouro-inestimavel",      
+      "title": "CD Alegria Inefável | Tesouro Inestimável",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/tesouroinestimavel.mp3",
+        "type": "audio/mp3",
+        "duration": 189
+      }
+    },
+    {
+      "id": "ai-bebe-ha-um-rio",      
+      "title": "CD Alegria Inefável | Beba! Há um Rio",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/bebehaumrio.mp3",
+        "type": "audio/mp3",
+        "duration": 184
+      }
+    },
+    {
+      "id": "ai-reunidos-em-teu-nome",      
+      "title": "CD Alegria Inefável | Reunidos em Teu Nome",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/reunidosemteunome.mp3",
+        "type": "audio/mp3",
+        "duration": 176
+      }
+    },
+    {
+      "id": "ai-pouco-a-pouco",      
+      "title": "CD Alegria Inefável | Pouco a Pouco",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/poucoapouco.mp3",
+        "type": "audio/mp3",
+        "duration": 150
+      }
+    },
+    {
+      "id": "ai-ha-momentos",      
+      "title": "CD Alegria Inefável | Há Momentos",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/hamomentos.mp3",
+        "type": "audio/mp3",
+        "duration": 210
+      }
+    },
+    {
+      "id": "ai-eu-ouco-sua-voz",      
+      "title": "CD Alegria Inefável | Eu Ouço Sua Voz",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/euoucosuavoz.mp3",
+        "type": "audio/mp3",
+        "duration": 221
+      }
+    },
+    {
+      "id": "ai-que-tu-senhor-sejas-minha-visao",      
+      "title": "CD Alegria Inefável | Que Tua Senhor Sejas Minha Visão",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/quetusenhorsejasminhavisao.mp3",
+        "type": "audio/mp3",
+        "duration": 181
+      }
+    },
+    {
+      "id": "ai-cantaremos-louvores-a-cristo",      
+      "title": "CD Alegria Inefável | Cantaremos Louvores a Cristo",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/cantaremoslouvoresacristo.mp3",
+        "type": "audio/mp3",
+        "duration": 110
+      }
+    },
+    {
+      "id": "ai-invocando-o-senhor-jesus",      
+      "title": "CD Alegria Inefável | Invocando o Senhor Jesus",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/invocandoosenhorjesus.mp3",
+        "type": "audio/mp3",
+        "duration": 234
+      }
     }
   ],
   "home": [
@@ -871,6 +1612,71 @@
         "url": "",
         "type": "",
         "duration": 2498
+      }
+    },
+    {
+      "id": "cd-infinitagratidao",
+      "title": "CD Infinita Gratidão",
+      "members": "Editora Árvore da Vida",
+      "published_at": "2021-09-11 15:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2002
+      }
+    },
+    {
+      "id": "cd-vencedoresemcristo",
+      "title": "CD Vencedores em Cristo",
+      "members": "Públio Alves",
+      "published_at": "2021-09-12 16:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 4056
+      }
+    },
+    {
+      "id": "cd-sublimeprivilegio",
+      "title": "CD Sublime Privilégio",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2021-09-13 17:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2591
+      }
+    },
+    {
+      "id": "cd-vindeamim",
+      "title": "CD Vinde a Mim",
+      "members": "Editora Árvore da Vida",
+      "published_at": "2021-09-09 23:59:59",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2337
+      }
+    },
+    {
+      "id": "cd-alegriainefavel",
+      "title": "CD Alegria Inefável",
+      "members": "Living Stream Ministry",
+      "published_at": "2021-09-14 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2512
       }
     }
   ],
@@ -1661,6 +2467,757 @@
         "url": "https://igcgcloud.netlify.app/cd-jesusnocontrole/prisioneiro.mp3",
         "type": "audio/mp3",
         "duration": 191
+      }
+    }
+  ],
+  "cdinfinitagratidao": [
+    {
+      "id": "ig-infinita-gratidao",      
+      "title": "CD Infinita Gratidão | Infinita Gratidão",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/infinitagratidao.mp3",
+        "type": "audio/mp3",
+        "duration": 292
+      }
+    },
+    {
+      "id": "ig-mananciais-de-agua-viva",      
+      "title": "CD Infinita Gratidão | Mananciais de Água Viva",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/mananciaisdeaguaviva.mp3",
+        "type": "audio/mp3",
+        "duration": 167
+      }
+    },
+    {
+      "id": "ig-como-nao-te-amar",      
+      "title": "CD Infinita Gratidão | Como Não Te Amar",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/comonaoteamar.mp3",
+        "type": "audio/mp3",
+        "duration": 278
+      }
+    },
+    {
+      "id": "ig-ilimitado-amor",      
+      "title": "CD Infinita Gratidão | Ilimitado Amor",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/ilimitadoamor.mp3",
+        "type": "audio/mp3",
+        "duration": 202
+      }
+    },
+    {
+      "id": "ig-o-falar-divino",      
+      "title": "CD Infinita Gratidão | O Falar Divino",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/ofalardivino.mp3",
+        "type": "audio/mp3",
+        "duration": 173
+      }
+    },
+    {
+      "id": "ig-renovados-de-dia-em-dia",      
+      "title": "CD Infinita Gratidão | Renovados de Dia em Dia",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/renovadosdediaemdia.mp3",
+        "type": "audio/mp3",
+        "duration": 215
+      }
+    },
+    {
+      "id": "ig-que-grande-amor",      
+      "title": "CD Infinita Gratidão | Que Grande Amor",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/quegrandeamor.mp3",
+        "type": "audio/mp3",
+        "duration": 198
+      }
+    },
+    {
+      "id": "ig-o-sopro-de-deus",      
+      "title": "CD Infinita Gratidão | O Sopro de Deus",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/osoprodedeus.mp3",
+        "type": "audio/mp3",
+        "duration": 162
+      }
+    },
+    {
+      "id": "ig-o-reinar-do-senhor",      
+      "title": "CD Infinita Gratidão | O Reinar do Senhor",
+      "members": "EAV",
+      "published_at": "2020-09-25 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdinfinitagratidao.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-infinitagratidao/oreinardosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 315
+      }
+    }
+  ],
+  "cdvencedoresemcristo": [
+    {
+      "id": "vec-vencedores-em-cristo",      
+      "title": "CD Vencedores em Cristo | Vencedores em Cristo",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/vencedoresemcristo.mp3",
+        "type": "audio/mp3",
+        "duration": 435
+      }
+    },
+    {
+      "id": "vec-quero-te-louvar",      
+      "title": "CD Vencedores em Cristo | Quero Te Louvar",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/querotelouvar.mp3",
+        "type": "audio/mp3",
+        "duration": 238
+      }
+    },
+    {
+      "id": "vec-converse-com-deus",      
+      "title": "CD Vencedores em Cristo | Converse com Deus",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/conversecomdeus.mp3",
+        "type": "audio/mp3",
+        "duration": 248
+      }
+    },
+    {
+      "id": "vec-a-mulher-samaritana",      
+      "title": "CD Vencedores em Cristo | A Mulher Samaritana",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/amulhersamaritana.mp3",
+        "type": "audio/mp3",
+        "duration": 365
+      }
+    },
+    {
+      "id": "vec-eu-quero-te-tocar",      
+      "title": "CD Vencedores em Cristo | Eu Quero Te Tocar",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/euquerotetocar.mp3",
+        "type": "audio/mp3",
+        "duration": 353
+      }
+    },
+    {
+      "id": "vec-a-cancao-de-jo",      
+      "title": "CD Vencedores em Cristo | A Canção de Jó",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/acancaodejo.mp3",
+        "type": "audio/mp3",
+        "duration": 233
+      }
+    },
+    {
+      "id": "vec-quebrantamento",      
+      "title": "CD Vencedores em Cristo | Quebrantamento",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/quebrantamento.mp3",
+        "type": "audio/mp3",
+        "duration": 317
+      }
+    },
+    {
+      "id": "vec-filho",      
+      "title": "CD Vencedores em Cristo | Filho",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/filho.mp3",
+        "type": "audio/mp3",
+        "duration": 280
+      }
+    },
+    {
+      "id": "vec-deus-e-rei",      
+      "title": "CD Vencedores em Cristo | Deus e Rei",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/deuserei.mp3",
+        "type": "audio/mp3",
+        "duration": 263
+      }
+    },
+    {
+      "id": "vec-amigo-fiel",      
+      "title": "CD Vencedores em Cristo | Amigo Fiel",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/amigofiel.mp3",
+        "type": "audio/mp3",
+        "duration": 236
+      }
+    },
+    {
+      "id": "vec-nunca-vou-lhe-abandonar",      
+      "title": "CD Vencedores em Cristo | Nunca Vou Lhe Abandonar",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/nuncavoulheabandonar.mp3",
+        "type": "audio/mp3",
+        "duration": 442
+      }
+    },
+    {
+      "id": "vec-so-teu-amor-senhor",      
+      "title": "CD Vencedores em Cristo | Só Teu Amor Senhor",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/soteuamorsenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 162
+      }
+    },
+    {
+      "id": "vec-o-amor-jamais-acabara",      
+      "title": "CD Vencedores em Cristo | O Amor Jamais Acabará",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/oamorjamaisacabara.mp3",
+        "type": "audio/mp3",
+        "duration": 238
+      }
+    },
+    {
+      "id": "vec-eu-te-invocarei",      
+      "title": "CD Vencedores em Cristo | Eu Te Invocarei",
+      "members": "Públio Alves",
+      "published_at": "2020-09-26 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vencedoresemcristo/euteinvocarei.mp3",
+        "type": "audio/mp3",
+        "duration": 246
+      }
+    }
+  ],
+  "cdsublimeprivilegio": [
+    {
+      "id": "sp-aquele-a-quem-sigo",      
+      "title": "CD Sublime Privilégio | Aquele a Quem Sigo",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/aqueleaquemsigo.mp3",
+        "type": "audio/mp3",
+        "duration": 227
+      }
+    },
+    {
+      "id": "sp-de-cristo-tao-somente",      
+      "title": "CD Sublime Privilégio | De Cristo Tão Somente",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/decristotaosomente.mp3",
+        "type": "audio/mp3",
+        "duration": 222
+      }
+    },
+    {
+      "id": "sp-o-amor-de-cristo",      
+      "title": "CD Sublime Privilégio | O Amor de Cristo",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/oamordecristo.mp3",
+        "type": "audio/mp3",
+        "duration": 264
+      }
+    },
+    {
+      "id": "sp-so-uma-vida-temos",      
+      "title": "CD Sublime Privilégio | Só Uma Vida Temos",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/soumavidatemos.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "sp-paz-no-coracao",      
+      "title": "CD Sublime Privilégio | Paz no Coração",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/paznocoracao.mp3",
+        "type": "audio/mp3",
+        "duration": 191
+      }
+    },
+    {
+      "id": "sp-unidade-genuina",      
+      "title": "CD Sublime Privilégio | Unidade Genuina",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/unidadegenuina.mp3",
+        "type": "audio/mp3",
+        "duration": 226
+      }
+    },
+    {
+      "id": "sp-sublime-privilegio",      
+      "title": "CD Sublime Privilégio | Sublime Privilégio",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/sublimeprivilegio.mp3",
+        "type": "audio/mp3",
+        "duration": 290
+      }
+    },
+    {
+      "id": "sp-quem-e-semelhante-a-ti",      
+      "title": "CD Sublime Privilégio | Quem é Semelhante a Ti",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/quemesemelhanteati.mp3",
+        "type": "audio/mp3",
+        "duration": 164
+      }
+    },
+    {
+      "id": "sp-para-onde-for-irei",      
+      "title": "CD Sublime Privilégio | Para Onde for Irei",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/paraondeforirei.mp3",
+        "type": "audio/mp3",
+        "duration": 247
+      }
+    },
+    {
+      "id": "sp-o-coracao-do-pai",      
+      "title": "CD Sublime Privilégio | O Coração do Pai",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/ocoracaodopai.mp3",
+        "type": "audio/mp3",
+        "duration": 244
+      }
+    },
+    {
+      "id": "sp-a-doce-hora",      
+      "title": "CD Sublime Privilégio | A Doce Hora",
+      "members": "Grupo Vocal Primícias",
+      "published_at": "2020-09-27 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdsublimeprivilegio.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sublimeprivilegio/adocehora.mp3",
+        "type": "audio/mp3",
+        "duration": 297
+      }
+    }
+  ],
+  "cdvindeamim": [
+    {
+      "id": "vam-asas-de-aguia",      
+      "title": "CD Vinde a Mim | Asas de Águia",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/asasdeaguia.mp3",
+        "type": "audio/mp3",
+        "duration": 254
+      }
+    },
+    {
+      "id": "vam-junto-as-aguas-de-descanso",      
+      "title": "CD Vinde a Mim | Junto as Águas de Descanso",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/juntoasaguasdedescanco.mp3",
+        "type": "audio/mp3",
+        "duration": 225
+      }
+    },
+    {
+      "id": "vam-nao-viver-so-para-mim",      
+      "title": "CD Vinde a Mim | Não Viver Só Para Mim",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/naoviversoparamim.mp3",
+        "type": "audio/mp3",
+        "duration": 206
+      }
+    },
+    {
+      "id": "vam-firme-fundamento",      
+      "title": "CD Vinde a Mim | Firme Fundamento",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/firmefundamento.mp3",
+        "type": "audio/mp3",
+        "duration": 248
+      }
+    },
+    {
+      "id": "vam-vinde-a-mim",      
+      "title": "CD Vinde a Mim | Vinde a Mim",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/vindeamim.mp3",
+        "type": "audio/mp3",
+        "duration": 227
+      }
+    },
+    {
+      "id": "vam-todo-aquele-que-invocar",      
+      "title": "CD Vinde a Mim | Todo Aquele que Invocar",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/todoaquelequeinvocar.mp3",
+        "type": "audio/mp3",
+        "duration": 269
+      }
+    },
+    {
+      "id": "vam-jardim-de-amor",      
+      "title": "CD Vinde a Mim | Jardim de Amor",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/jardimdeamor.mp3",
+        "type": "audio/mp3",
+        "duration": 288
+      }
+    },
+    {
+      "id": "vam-sopra-em-mim-senhor",      
+      "title": "CD Vinde a Mim | Sopra em Mim Senhor",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/sobraemmimsenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 215
+      }
+    },
+    {
+      "id": "vam-eu-te-louvarei-por-todo-sempre",      
+      "title": "CD Vinde a Mim | Eu Te Louvarei por Todo Sempre",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/eutelouvareiportodosempre.mp3",
+        "type": "audio/mp3",
+        "duration": 204
+      }
+    },
+    {
+      "id": "vam-fonte-de-agua-viva",      
+      "title": "CD Vinde a Mim | Fonte de Água Viva",
+      "members": "EAV",
+      "published_at": "2020-09-10 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-vindeamim/fontedeaguaviva.mp3",
+        "type": "audio/mp3",
+        "duration": 201
+      }
+    }
+  ],
+  "cdalegriainefavel": [
+    {
+      "id": "ai-oh-ele-e-o-espirito-em-nos",      
+      "title": "CD Alegria Inefável | Oh! Ele é o Espírito em Nós",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/oheleeoespiritoemnos.mp3",
+        "type": "audio/mp3",
+        "duration": 223
+      }
+    },
+    {
+      "id": "ai-alegira-inefavel",      
+      "title": "CD Alegria Inefável | Alegria Inefável",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/alegriainefavel.mp3",
+        "type": "audio/mp3",
+        "duration": 233
+      }
+    },
+    {
+      "id": "ai-temos-um-pai",      
+      "title": "CD Alegria Inefável | Temos um Pai",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/temosumpai.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "ai-temos-paz-com-deus",      
+      "title": "CD Alegria Inefável | Temos Paz com Deus",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/temospazcomdeus.mp3",
+        "type": "audio/mp3",
+        "duration": 173
+      }
+    },
+    {
+      "id": "ai-tesouro-inestimavel",      
+      "title": "CD Alegria Inefável | Tesouro Inestimável",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/tesouroinestimavel.mp3",
+        "type": "audio/mp3",
+        "duration": 189
+      }
+    },
+    {
+      "id": "ai-bebe-ha-um-rio",      
+      "title": "CD Alegria Inefável | Beba! Há um Rio",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/bebehaumrio.mp3",
+        "type": "audio/mp3",
+        "duration": 184
+      }
+    },
+    {
+      "id": "ai-reunidos-em-teu-nome",      
+      "title": "CD Alegria Inefável | Reunidos em Teu Nome",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/reunidosemteunome.mp3",
+        "type": "audio/mp3",
+        "duration": 176
+      }
+    },
+    {
+      "id": "ai-pouco-a-pouco",      
+      "title": "CD Alegria Inefável | Pouco a Pouco",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/poucoapouco.mp3",
+        "type": "audio/mp3",
+        "duration": 150
+      }
+    },
+    {
+      "id": "ai-ha-momentos",      
+      "title": "CD Alegria Inefável | Há Momentos",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/hamomentos.mp3",
+        "type": "audio/mp3",
+        "duration": 210
+      }
+    },
+    {
+      "id": "ai-eu-ouco-sua-voz",      
+      "title": "CD Alegria Inefável | Eu Ouço Sua Voz",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/euoucosuavoz.mp3",
+        "type": "audio/mp3",
+        "duration": 221
+      }
+    },
+    {
+      "id": "ai-que-tu-senhor-sejas-minha-visao",      
+      "title": "CD Alegria Inefável | Que Tua Senhor Sejas Minha Visão",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/quetusenhorsejasminhavisao.mp3",
+        "type": "audio/mp3",
+        "duration": 181
+      }
+    },
+    {
+      "id": "ai-cantaremos-louvores-a-cristo",      
+      "title": "CD Alegria Inefável | Cantaremos Louvores a Cristo",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/cantaremoslouvoresacristo.mp3",
+        "type": "audio/mp3",
+        "duration": 110
+      }
+    },
+    {
+      "id": "ai-invocando-o-senhor-jesus",      
+      "title": "CD Alegria Inefável | Invocando o Senhor Jesus",
+      "members": "LSM",
+      "published_at": "2020-09-16 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdalegriainefavel.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-alegriainefavel/invocandoosenhorjesus.mp3",
+        "type": "audio/mp3",
+        "duration": 234
       }
     }
   ]
