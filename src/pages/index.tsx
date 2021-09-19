@@ -61,6 +61,9 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         _order: 'desc',
     }})
 
+    console.log("Coletei os dados da API, Olha ela ai a baixo:")
+    console.log(data);
+
     const episodes = data.map(music => {
       return {
         id: music.id,
@@ -74,10 +77,13 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
       }
     })
     
+    console.log("Mapiei a API")
+
     const playListRandom = [...episodes]
 
     playList(Object(playListRandom), Math.floor(Math.random() * (20 - 1)) + 1);
     toggleShuffle();
+    console.log("Toquei a Musica")
     setTimeout(function() {
       toast.update('criarplaylist', {
         render: "Playlist criada com sucesso. Bom desfrute!",
