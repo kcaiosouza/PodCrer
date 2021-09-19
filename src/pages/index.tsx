@@ -130,11 +130,33 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         </LatestEpisodes>
 
         <AllEpisodes>
-          <h2>Todos os CDs</h2>
-          <button style={{position: 'absolute', bottom: 10, right: 420, backgroundColor: '#b3cdbe', borderRadius: 30, padding: 15, color:'#fff', fontSize: 16, fontWeight: 'bold'}} onClick={() => {
-              randomplaylist()
-            }}>SURPREENDA-ME</button>
+          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}} >
 
+            <h2>Todos os CDs</h2>
+            <button
+
+            style={{
+              backgroundColor: '#b3cdbe',
+              border: 0,
+              borderRadius: 30,
+              paddingRight: 15,
+              paddingLeft: 15,
+              paddingTop: 10,
+              paddingBottom: 10,
+              color:'#fff',
+              fontSize: 16,
+              fontWeight: 'bold',
+              display:'flex',
+              alignItems: 'center'}}
+
+            onClick={() => { randomplaylist() }}>
+              
+              SURPREENDA-ME
+            <img style={{marginLeft: 10}}
+              src="/shuffle.svg"
+              alt="shuffle"/></button>
+
+          </div>
           <AllEpisodesTable cellSpacing={0}>
             <thead>
               <tr>

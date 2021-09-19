@@ -10,10 +10,19 @@ const HomepageComponent = styled.div`
     margin-bottom: 1.5rem;
   }
 
+  #imgerr {
+    width: auto;
+    height: auto;
+  }
+
   @media (max-width: 768px) {
     padding: 0 2rem;
   }
 `;
+
+const ImageLinearOpacity = styled.div`
+  -webkit-mask-image: -webkit-gradient(linear, left 60%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  `;
 
 const LatestEpisodes = styled.section`
   ul {
@@ -374,4 +383,4 @@ const AllEpisodesCard = styled.section`
   }
 `;
 
-export { HomepageComponent, LatestEpisodes, EpisodeDetails, AllEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious, StyledButtom};
+export { ImageLinearOpacity, HomepageComponent, LatestEpisodes, EpisodeDetails, AllEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious, StyledButtom};
