@@ -9,7 +9,7 @@ export default function errSE() {
   return (
     <HomepageComponent>
         <Head>
-            <title>Erro 404 | IGCGMusic</title>
+            <title>Erro 500 | IGCGMusic</title>
         </Head>
         <div style={{display: 'flex', flexDirection: 'column' , alignItems: 'center', justifyContent: 'center', paddingTop: 30}}>
        <h2 style={{textAlign: 'center', marginBottom: 25}}>Essa página foi arrebatada... digo... não encontrada 😅 | Erro 500</h2>
