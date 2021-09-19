@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
+//Notificação addQueue
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { format, parseISO } from 'date-fns'; //parseISO pega uma string e converte para um Date do JS
 import ptBR from 'date-fns/locale/pt-BR';
@@ -35,13 +39,56 @@ type HomeProps = {
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
-  const { playList } = usePlayer();
+  const { playList, toggleShuffle } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
+  
+  async function randomplaylist() {
+    toast.warn("Aguarde... Estamos criando uma playlist para você", {
+      position: "bottom-right",
+      autoClose: false,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      toastId: 'criarplaylist'
+    })
+    const { data } = await api.get('slug', {
+      params: {
+        _limit: 1000,
+        _sort: 'published_at',
+        _order: 'desc',
+    }})
 
+    const episodes = data.map(music => {
+      return {
+        id: music.id,
+        title: music.title,
+        thumbnail: music.thumbnail,
+        members: music.members,
+        publishedAt: format(parseISO(music.published_at), 'd MMM yy', { locale: ptBR }),
+        duration: Number(music.file.duration),
+        durationAsString: convertDurationToTimeString(Number(music.file.duration)),
+        url: music.file.url,
+      }
+    })
+    
+    const playListRandom = [...episodes]
+
+    playList(Object(playListRandom), Math.floor(Math.random() * (20 - 1)) + 1);
+    toggleShuffle();
+    setTimeout(function() {
+      toast.update('criarplaylist', {
+        render: "Playlist criada com sucesso. Bom desfrute!",
+        type: toast.TYPE.SUCCESS,
+        autoClose: 5000
+      })
+    }, 1000)
+  }
   return (
     <HomepageComponent>
-        
+       <ToastContainer /> 
       <Head>
         <title>Home | IGCGMusic</title>
       </Head>
@@ -78,6 +125,9 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
         <AllEpisodes>
           <h2>Todos os CDs</h2>
+          <button style={{position: 'absolute', bottom: 10, right: 420, backgroundColor: '#b3cdbe', borderRadius: 30, padding: 15, color:'#fff', fontSize: 16, fontWeight: 'bold'}} onClick={() => {
+              randomplaylist()
+            }}>SURPREENDA-ME</button>
 
           <AllEpisodesTable cellSpacing={0}>
             <thead>
@@ -155,7 +205,7 @@ export const getStaticProps: GetStaticProps = async () => {
       _limit: 1000,
       _sort: 'published_at',
       _order: 'desc',
-    }
+    },
   })
 
   const episodes = data.map(episode => {
@@ -182,7 +232,6 @@ export const getStaticProps: GetStaticProps = async () => {
       revalidate: 60 * 60 * 8,
   }
 }
-
 
 //SPA:
 /* export default function Home(props) {

@@ -46,7 +46,7 @@ export function PLayerContextProvider({ children }: PlayerContextProviderProps) 
   const [isLooping, setIsLooping] = useState(false);
   const [isShuffling, setIsShuffling] = useState(false);
   const [customizePlayList, setCustomizePlayList] = useState([]);
-  const [newElement, setNewElement] = useState({"id": "vinheta-1-igcg", "title": "Sua PlayList", "thumbnail": "https://igcgcloud.netlify.app/images/default.png"});
+  const [newElement, setNewElement] = useState({"id": "vinheta-1-igcg", "thumbnail": "https://igcgcloud.netlify.app/images/default.png"});
 
 
   function play(episode: Episode) {
