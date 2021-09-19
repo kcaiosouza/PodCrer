@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
+//Notificação addQueue
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { format, parseISO } from 'date-fns'; //parseISO pega uma string e converte para um Date do JS
 import ptBR from 'date-fns/locale/pt-BR';
@@ -35,13 +39,35 @@ type HomeProps = {
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
 export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeProps) {
-  const { playList } = usePlayer();
+  const emojiChoose = [
+    '🎵',
+    '🎶',
+    '📻',
+    '🎤',
+    '🎼',
+    '🎧',
+    '🎷',
+    '🎸',
+    '🎹',
+    '🥁',
+    '🎺',
+    '📯',
+    '🎻',
+    '🪕',
+    '🔉',
+    '🔊'
+  ];
+  function random(mn, mx) { 
+    return Math.random() * (mx - mn) + mn; 
+  } 
+  
+  const { playList, personalPlayList } = usePlayer();
 
-  const episodeList = [...latestEpisodes, ...allEpisodes];
+  const episodeList = Object([...latestEpisodes, ...allEpisodes]);
 
   return (
     <HomepageComponent>
-        
+      <ToastContainer />
       <Head>
         <title>CD Feliz e Abençoado | IGCGMusic</title>
       </Head>
@@ -79,8 +105,22 @@ export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeP
                   <span>{episode.durationAsString}</span>
                 </EpisodeDetails>
 
-                <button type="button" onClick={() => playList(episodeList, index)}>
+                <button id="playMusic" type="button" onClick={() => playList(episodeList, index)}>
                   <img src="/play-green.svg" alt="Tocar episódio"/>
+                </button>
+                <button id="addQueue" type="button" onClick={() => {
+                  toast.success('Música adicionada a playlist', {
+                    icon: emojiChoose[Math.floor(random(1,17))-1],
+                    position: "bottom-right",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: false,
+                    draggable: true,
+                    progress: undefined,
+                  }),
+                  personalPlayList(episodeList, index)}}>
+                  <img src="/add-queue.svg" alt="Adicionar a fila"/>
                 </button>
               </li>
             )
@@ -123,9 +163,24 @@ export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeP
                     <td>{episode.members}</td>
                     <td style={{width: 100}}>{episode.publishedAt}</td>
                     <td>{episode.durationAsString}</td>
-                    <td>
+                    <td style={{width: 100}}>
                       <button type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
                         <img src="/play-green.svg" alt="Tocar episódio" />
+                      </button>
+                      <b> </b>
+                      <button type="button" onClick={() => {
+                        toast.success('Música adicionada a playlist', {
+                          icon: emojiChoose[Math.floor(random(1,17))-1],
+                          position: "bottom-right",
+                          autoClose: 3000,
+                          hideProgressBar: false,
+                          closeOnClick: true,
+                          pauseOnHover: false,
+                          draggable: true,
+                          progress: undefined,
+                        }),
+                        personalPlayList(episodeList, index + latestEpisodes.length)}}>
+                        <img src="/add-queue.svg" alt="Adicionar a fila"/>
                       </button>
                     </td>
                   </tr>
@@ -158,8 +213,22 @@ export default function cdfelizeabencoado({ latestEpisodes, allEpisodes }: HomeP
                       <span>{episode.durationAsString}</span>
                     </EpisodeDetails>
 
-                    <button type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
+                    <button id="playMusic" type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
                       <img src="/play-green.svg" alt="Tocar episódio"/>
+                    </button>
+                    <button id="addQueue" type="button" onClick={() => {
+                      toast.success('Música adicionada a playlist', {
+                        icon: emojiChoose[Math.floor(random(1,17))-1],
+                        position: "bottom-right",
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: false,
+                        draggable: true,
+                        progress: undefined,
+                      }),
+                      personalPlayList(episodeList, index + latestEpisodes.length)}}>
+                      <img src="/add-queue.svg" alt="Adicionar a fila"/>
                     </button>
                   </li>
                 )

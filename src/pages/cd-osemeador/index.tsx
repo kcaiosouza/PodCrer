@@ -38,7 +38,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function cdosemeador({ latestEpisodes, allEpisodes }: HomeProps) {
   const emojiChoose = [
     '🎵',
     '🎶',
@@ -69,9 +69,9 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
     <HomepageComponent>
       <ToastContainer />
       <Head>
-        <title>CD Alegria Inefável | IGCGMusic</title>
+        <title>CD O Semeador | IGCGMusic</title>
       </Head>
-
+      
       <LatestEpisodes>
         <ButtomPrevious>
             <Link href={'/'}>
@@ -108,8 +108,7 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
                 <button id="playMusic" type="button" onClick={() => playList(episodeList, index)}>
                   <img src="/play-green.svg" alt="Tocar episódio"/>
                 </button>
-                <button id="addQueue" type="button" onClick={() => {
-                  toast.success('Música adicionada a playlist', {
+                <button id="addQueue" type="button" onClick={() => { personalPlayList(episodeList, index), toast.success('Música adicionada a playlist', {
                     icon: emojiChoose[Math.floor(random(1,17))-1],
                     position: "bottom-right",
                     autoClose: 3000,
@@ -118,8 +117,7 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
                     pauseOnHover: false,
                     draggable: true,
                     progress: undefined,
-                  }),
-                  personalPlayList(episodeList, index)}}>
+                  })}}>
                   <img src="/add-queue.svg" alt="Adicionar a fila"/>
                 </button>
               </li>
@@ -217,17 +215,17 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
                       <img src="/play-green.svg" alt="Tocar episódio"/>
                     </button>
                     <button id="addQueue" type="button" onClick={() => {
-                      toast.success('Música adicionada a playlist', {
-                        icon: emojiChoose[Math.floor(random(1,17))-1],
-                        position: "bottom-right",
-                        autoClose: 3000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: false,
-                        draggable: true,
-                        progress: undefined,
-                      }),
-                      personalPlayList(episodeList, index + latestEpisodes.length)}}>
+                        toast.success('Música adicionada a playlist', {
+                          icon: emojiChoose[Math.floor(random(1,17))-1],
+                          position: "bottom-right",
+                          autoClose: 3000,
+                          hideProgressBar: false,
+                          closeOnClick: true,
+                          pauseOnHover: false,
+                          draggable: true,
+                          progress: undefined,
+                        }),
+                        personalPlayList(episodeList, index + latestEpisodes.length)}}>
                       <img src="/add-queue.svg" alt="Adicionar a fila"/>
                     </button>
                   </li>
@@ -241,7 +239,7 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get('cdalegriainefavel', {
+  const { data } = await api.get('cdosemeador', {
     params: {
       _limit: 1000,
       _sort: 'published_at',

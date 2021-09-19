@@ -1,8 +1,10 @@
 import { createContext, useState, ReactNode, useContext } from 'react';
 
 type Episode ={
+  id: string;
   title: string;
   members: string;
+  published_at: string;
   thumbnail: string;
   duration: number;
   url: string;
@@ -16,6 +18,7 @@ type PlayerContextData = {
   isShuffling: boolean;
   hasNext: boolean;
   hasPrevious: boolean;
+  customizePlayList: Episode[];
   togglePlay: () => void;
   toggleLoop: () => void;
   toggleShuffle: () => void;
@@ -25,6 +28,8 @@ type PlayerContextData = {
   play: (episode: Episode) => void;
   playList: (list: Episode[], index: number) => void;
   setPlayingState: (state: boolean) => void;
+  personalPlayList: (list: Episode[], index: number) => void;
+  clearPersonalPlayList: () => void;
 }
 
 
@@ -40,12 +45,27 @@ export function PLayerContextProvider({ children }: PlayerContextProviderProps) 
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLooping, setIsLooping] = useState(false);
   const [isShuffling, setIsShuffling] = useState(false);
+  const [customizePlayList, setCustomizePlayList] = useState([]);
+  const [newElement, setNewElement] = useState({"id": "vinheta-1-igcg", "title": "Sua PlayList", "thumbnail": "https://igcgcloud.netlify.app/images/default.png"});
 
 
   function play(episode: Episode) {
     setEpisodeList([episode]);
     setCurrentEpisodeIndex(0);
     setIsPlaying(true);
+  }
+
+  function personalPlayList(list: Episode[], index: number) {
+    setNewElement(Object(list[index]));
+    if (setNewElement == {}) {
+      console.log("ESTOU VAZIO")
+    }else {
+      setCustomizePlayList(oldarray => Object([...oldarray, newElement]));
+    }
+  }
+
+  function clearPersonalPlayList() {
+    setCustomizePlayList([]);
   }
 
   function playList(list: Episode[], index: number) {
@@ -104,6 +124,7 @@ export function PLayerContextProvider({ children }: PlayerContextProviderProps) 
       isPlaying, 
       isLooping,
       isShuffling,
+      customizePlayList,
       play, 
       playList,
       playNext,
@@ -115,6 +136,8 @@ export function PLayerContextProvider({ children }: PlayerContextProviderProps) 
       toggleShuffle,
       setPlayingState,
       clearPlayerState,
+      personalPlayList,
+      clearPersonalPlayList
       }}
     >
       { children }

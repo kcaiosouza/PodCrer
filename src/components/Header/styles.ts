@@ -24,6 +24,26 @@ export const HeaderContainer = styled.header`
     text-transform: capitalize;
   }
 
+  #logo {
+    margin-right: 10px;
+  }
+
+  #logo:hover {
+    cursor: pointer;
+  }
+
+  #hoverList button {
+    background: none;
+    border: none;
+    padding-right: 0.3rem;
+
+    transition: filter 0.3s;
+  }
+
+  #hoverList:hover button {
+    filter: brightness(0.85);
+  }
+
   @media (max-width: 720px) {
     padding: 1rem 2rem;
 
@@ -33,6 +53,7 @@ export const HeaderContainer = styled.header`
 
     p {
       margin-right: auto;
+      display:none
     }
   }
 

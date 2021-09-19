@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { useContext } from 'react';
 import DarkModeToggle from "react-dark-mode-toggle";
 
@@ -24,7 +26,18 @@ export function Header(props: Props) {
 
   return (
     <HeaderContainer>
-      <img width={250} src={ title === 'light' ? "/logoigcg.svg" : "/logoigcg-light.svg"} alt="Logo"/>
+
+      <Link href="/">
+        <img id="logo" width={250} src={ title === 'light' ? "/logoigcg.svg" : "/logoigcg-light.svg"} alt="Logo"/>
+      </Link>
+
+      <div id="hoverList">
+        <Link href="/myplaylist">
+        <button>
+          <img width={40} src="/playlist.svg" alt="BPL" />
+        </button>
+        </Link>
+      </div>
 
       <p>Desfrutar é bem melhor</p>
       <span>{currentDate}</span>
@@ -34,6 +47,7 @@ export function Header(props: Props) {
       checked={title === 'dark'}
       size={40}
       />
+
     </HeaderContainer>
   );
 }

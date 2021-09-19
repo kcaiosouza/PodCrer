@@ -38,7 +38,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function cdvozepiano({ latestEpisodes, allEpisodes }: HomeProps) {
   const emojiChoose = [
     '🎵',
     '🎶',
@@ -60,20 +60,20 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
   function random(mn, mx) { 
     return Math.random() * (mx - mn) + mn; 
   } 
-  
+
   const { playList, personalPlayList } = usePlayer();
 
   const episodeList = Object([...latestEpisodes, ...allEpisodes]);
 
   return (
     <HomepageComponent>
-      <ToastContainer />
+      <ToastContainer/>
       <Head>
-        <title>CD Alegria Inefável | IGCGMusic</title>
+        <title>CD Voz e Piano | IGCGMusic</title>
       </Head>
 
       <LatestEpisodes>
-        <ButtomPrevious>
+      <ButtomPrevious>
             <Link href={'/'}>
             <StyledButtom>
                 <img src="/arrow-left.svg" alt="Voltar"/>
@@ -135,7 +135,7 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
             <thead>
               <tr>
                 <th></th>
-                <th>Músicas</th>
+                <th>Música</th>
                 <th>Autores</th>
                 <th>Data</th>
                 <th>Duração</th>
@@ -241,7 +241,7 @@ export default function cdalegriainefavel({ latestEpisodes, allEpisodes }: HomeP
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get('cdalegriainefavel', {
+  const { data } = await api.get('cdvozepiano', {
     params: {
       _limit: 1000,
       _sort: 'published_at',

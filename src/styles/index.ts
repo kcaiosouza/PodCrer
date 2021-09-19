@@ -41,9 +41,34 @@ const LatestEpisodes = styled.section`
     }
   }
 
-  button {
+  button#addQueue {
     position: absolute;
     right: 2rem;
+    bottom: 2rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    background: ${props => props.theme.colors.backgroundSecondary};
+    border: 1px solid ${props => props.theme.colors.backgroundPrimary};
+    border-radius: 0.675rem;
+    font-size: 0;
+
+    transition: filter 0.2s;
+
+    img {
+      width: 1.5rem;
+      min-width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &:hover {
+      filter: brightness(0.95);
+    }
+  }
+
+  button#playMusic {
+    position: absolute;
+    right: 5rem;
     bottom: 2rem;
 
     width: 2.5rem;
@@ -96,7 +121,7 @@ const ImageContainer = styled.div`
 `;
 
 const StyledButtom = styled.div`
-  background-color: ${props => props.theme.colors.primary500};
+  background-color: ${props => props.theme.colors.backgroundDeep};
   padding: 5px;
   display: flex;
   border-radius: 7px;
@@ -302,6 +327,30 @@ const AllEpisodesCard = styled.section`
       filter: brightness(0.95);
     }
   }
+  button#playMusic {
+    position: absolute;
+    right: 5rem;
+    bottom: 2rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    background: ${props => props.theme.colors.backgroundSecondary};
+    border: 1px solid ${props => props.theme.colors.backgroundPrimary};
+    border-radius: 0.675rem;
+    font-size: 0;
+
+    transition: filter 0.2s;
+
+    img {
+      width: 1.5rem;
+      min-width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &:hover {
+      filter: brightness(0.95);
+    }
+  }
 
   @media (max-width: 1000px) {
     display: grid;
@@ -314,8 +363,12 @@ const AllEpisodesCard = styled.section`
   }
 
   @media (max-width: 525px) {
-    button {
+    button#addQueue {
       right: 0.6rem;
+      bottom: 0.6rem;
+    }
+    button#playMusic {
+      right: 3.6rem;
       bottom: 0.6rem;
     }
   }
