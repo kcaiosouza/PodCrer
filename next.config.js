@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ['storage.googleapis.com', '0.tcp.sa.ngrok.io:12337', 'www.igrejaemcampinagrande.com.br', 'igcgcloud.netlify.app', '288oficial.com'],
+    domains: ['storage.googleapis.com', '38bb-177-37-146-48.sa.ngrok.io', 'www.igrejaemcampinagrande.com.br', 'igcgcloud.netlify.app', '288oficial.com'],
   }
 }
