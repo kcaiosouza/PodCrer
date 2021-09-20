@@ -2205,7 +2205,7 @@
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdcaminhoseguro.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/aleiodosenhoreperfeita.mp3",
+        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/aleidosenhoreperfeita.mp3",
         "type": "audio/mp3",
         "duration": 159
       }
@@ -2237,14 +2237,14 @@
       }
     },
     {
-      "id": "cs-buscai-as-coisas-la-do-alto",      
-      "title": "CD Caminho Seguro | Buscai as Coisas lá do Alto",
+      "id": "cs-buscai-as-coisas-do-alto",      
+      "title": "CD Caminho Seguro | Buscai as Coisas do Alto",
       "members": "EAV",
       "published_at": "2020-09-19 22:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdcaminhoseguro.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/buscaiascoisasladoalto.mp3",
+        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/buscaiascoisasdoalto.mp3",
         "type": "audio/mp3",
         "duration": 165
       }
@@ -2325,6 +2325,149 @@
         "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/temosoleonaslampadas.mp3",
         "type": "audio/mp3",
         "duration": 136
+      }
+    },
+    {
+      "id": "cv-carta-viva",      
+      "title": "CD Carta Viva | Carta Viva",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/cartaviva.mp3",
+        "type": "audio/mp3",
+        "duration": 210
+      }
+    },
+    {
+      "id": "cv-alguem-que-se-importa-comigo",      
+      "title": "CD Carta Viva | Alguém Que Se Importa Comigo",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/alguemqueseimportacomigo.mp3",
+        "type": "audio/mp3",
+        "duration": 298
+      }
+    },
+    {
+      "id": "cv-salvacao-ganhando",      
+      "title": "CD Carta Viva | Salvação Ganhando",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/salvacaoganhando.mp3",
+        "type": "audio/mp3",
+        "duration": 191
+      }
+    },
+    {
+      "id": "cv-ate-a-maturidade",      
+      "title": "CD Carta Viva | Até a Maturidade",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/ateamaturidade.mp3",
+        "type": "audio/mp3",
+        "duration": 325
+      }
+    },
+    {
+      "id": "cv-senhor-eu-vejo-enfim",      
+      "title": "CD Carta Viva | Senhor, Eu Vejo Enfim",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/senhoreuvejoenfim.mp3",
+        "type": "audio/mp3",
+        "duration": 258
+      }
+    },
+    {
+      "id": "cv-jesus-eu-quero-provar-mais-de-ti",      
+      "title": "CD Carta Viva | Jesus Eu Quero Mais de Ti",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/jesuseuqueroprovarmaisdeti.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "cv-esta-paz-que-sinto-em-minha-alma",      
+      "title": "CD Carta Viva | Esta Paz Que Sinto Em Minh'alma",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/estapazquesintoemminhalma.mp3",
+        "type": "audio/mp3",
+        "duration": 203
+      }
+    },
+    {
+      "id": "cv-plena-filiacao",      
+      "title": "CD Carta Viva | Plena Filiação",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/plenafiliacao.mp3",
+        "type": "audio/mp3",
+        "duration": 226
+      }
+    },
+    {
+      "id": "cv-perante-tua-face-eu-me-calo",      
+      "title": "CD Carta Viva | Perante Tua Face Eu Me Calo",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/perantetuafaceeumecalo.mp3",
+        "type": "audio/mp3",
+        "duration": 251
+      }
+    },
+    {
+      "id": "cv-firme-fundamento",      
+      "title": "CD Carta Viva | Firme Fundamento",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/firmefundamento.mp3",
+        "type": "audio/mp3",
+        "duration": 258
+      }
+    },
+    {
+      "id": "cv-jovem-onde-estas",      
+      "title": "CD Carta Viva | Jovem Onde Estás",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/jovemondeestas.mp3",
+        "type": "audio/mp3",
+        "duration": 202
       }
     }
   ],
@@ -2535,6 +2678,19 @@
         "url": "",
         "type": "",
         "duration": 2003
+      }
+    },
+    {
+      "id": "cd-cartaviva",
+      "title": "CD Carta Viva",
+      "members": "Grupo Manancial",
+      "published_at": "2021-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2641
       }
     }
   ],
@@ -4759,7 +4915,7 @@
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdcaminhoseguro.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/aleiodosenhoreperfeita.mp3",
+        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/aleidosenhoreperfeita.mp3",
         "type": "audio/mp3",
         "duration": 159
       }
@@ -4791,14 +4947,14 @@
       }
     },
     {
-      "id": "cs-buscai-as-coisas-la-do-alto",      
-      "title": "CD Caminho Seguro | Buscai as Coisas lá do Alto",
+      "id": "cs-buscai-as-coisas-do-alto",      
+      "title": "CD Caminho Seguro | Buscai as Coisas do Alto",
       "members": "EAV",
       "published_at": "2020-09-19 22:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdcaminhoseguro.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/buscaiascoisasladoalto.mp3",
+        "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/buscaiascoisasdoalto.mp3",
         "type": "audio/mp3",
         "duration": 165
       }
@@ -4879,6 +5035,151 @@
         "url": "https://igcgcloud.netlify.app/cd-caminhoseguro/temosoleonaslampadas.mp3",
         "type": "audio/mp3",
         "duration": 136
+      }
+    }
+  ],
+  "cdcartaviva": [
+    {
+      "id": "cv-carta-viva",      
+      "title": "CD Carta Viva | Carta Viva",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/cartaviva.mp3",
+        "type": "audio/mp3",
+        "duration": 210
+      }
+    },
+    {
+      "id": "cv-alguem-que-se-importa-comigo",      
+      "title": "CD Carta Viva | Alguém Que Se Importa Comigo",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/alguemqueseimportacomigo.mp3",
+        "type": "audio/mp3",
+        "duration": 298
+      }
+    },
+    {
+      "id": "cv-salvacao-ganhando",      
+      "title": "CD Carta Viva | Salvação Ganhando",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/salvacaoganhando.mp3",
+        "type": "audio/mp3",
+        "duration": 191
+      }
+    },
+    {
+      "id": "cv-ate-a-maturidade",      
+      "title": "CD Carta Viva | Até a Maturidade",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/ateamaturidade.mp3",
+        "type": "audio/mp3",
+        "duration": 325
+      }
+    },
+    {
+      "id": "cv-senhor-eu-vejo-enfim",      
+      "title": "CD Carta Viva | Senhor, Eu Vejo Enfim",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/senhoreuvejoenfim.mp3",
+        "type": "audio/mp3",
+        "duration": 258
+      }
+    },
+    {
+      "id": "cv-jesus-eu-quero-provar-mais-de-ti",      
+      "title": "CD Carta Viva | Jesus Eu Quero Mais de Ti",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/jesuseuqueroprovarmaisdeti.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "cv-esta-paz-que-sinto-em-minha-alma",      
+      "title": "CD Carta Viva | Esta Paz Que Sinto Em Minh'alma",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/estapazquesintoemminhalma.mp3",
+        "type": "audio/mp3",
+        "duration": 203
+      }
+    },
+    {
+      "id": "cv-plena-filiacao",      
+      "title": "CD Carta Viva | Plena Filiação",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/plenafiliacao.mp3",
+        "type": "audio/mp3",
+        "duration": 226
+      }
+    },
+    {
+      "id": "cv-perante-tua-face-eu-me-calo",      
+      "title": "CD Carta Viva | Perante Tua Face Eu Me Calo",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/perantetuafaceeumecalo.mp3",
+        "type": "audio/mp3",
+        "duration": 251
+      }
+    },
+    {
+      "id": "cv-firme-fundamento",      
+      "title": "CD Carta Viva | Firme Fundamento",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/firmefundamento.mp3",
+        "type": "audio/mp3",
+        "duration": 258
+      }
+    },
+    {
+      "id": "cv-jovem-onde-estas",      
+      "title": "CD Carta Viva | Jovem Onde Estás",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-19 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdcartaviva.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-cartaviva/jovemondeestas.mp3",
+        "type": "audio/mp3",
+        "duration": 202
       }
     }
   ]
