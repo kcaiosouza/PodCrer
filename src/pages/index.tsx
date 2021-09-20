@@ -81,7 +81,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
     const playListRandom = [...episodes]
 
-    playList(Object(playListRandom), Math.floor(Math.random() * (20 - 1)) + 1);
+    playList(Object(playListRandom), Math.floor(Math.random() * (189 - 1)) + 1);
     toggleShuffle();
     console.log("Toquei a Musica")
     setTimeout(function() {
