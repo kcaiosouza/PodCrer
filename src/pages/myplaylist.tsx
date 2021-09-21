@@ -68,7 +68,7 @@ export default function myplaylist() {
                 src="https://igcgcloud.netlify.app/images/playlistthumb.png"
                 objectFit="cover"
                 />
-                <button type="button" onClick={() => { playList(customizePlayList, 0), personalPlayList(Object([{"id": "vinheta-1-igcg", "thumbnail": "https://igcgcloud.netlify.app/images/default.png"}]), 0) }}>
+                <button type="button" onClick={() => { playList(customizePlayList, 1), personalPlayList(Object([{"id": "vinheta-1-igcg", "thumbnail": "https://igcgcloud.netlify.app/images/default.png"}]), 0) }}>
                 <img src="/play.svg" alt="Tocar episódio"/>
                 </button>
             </ThumbnailContainer>

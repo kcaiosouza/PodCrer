@@ -1,19 +1,6 @@
 {
   "slug": [
     {
-      "id": "webradio-igcg",      
-      "title": "Web Rádio IGCG",
-      "members": "Hinos 24h por dia",
-      "published_at": "2021-09-08 20:00:00",
-      "thumbnail": "http://www.igrejaemcampinagrande.com.br/image/LogoRadio06_Transp.png",
-      "description": "<p>O louvor é a obra mais elevada executada pelos filhos de Deus. Podemos dizer que a expressão mais elevada da vida espiritual dos santos é seu louvor a Deus. O trono de Deus é o lugar mais elevado do universo, contudo Ele se assenta “entronizado entre os louvores de Israel” (Sl 22:3). O nome de Deus e até mesmo o próprio Deus são exaltados por meio do louvor.<br><br>Ao criar essa rádio web, a igreja que está em Campina Grande tem o desejo de louvar o Senhor porque Ele é bom (Sl 25:8; 100:5). Precisamos sempre dizer, “O Senhor é bom”. Hoje temos que aprender a crer que o Senhor é bom e que Ele nunca está errado, mesmo que nem sempre possamos entender o que Ele está fazendo. Se crermos, louvaremos.<br><br>Nossos louvores são Sua glória.<br>Louvar é glorificar a Deus.<br>Deus é digno de toda a glória.<br>Possa Deus ganhar louvores abundantes de Seus filhos!</p>",
-      "file": {
-        "url": "http://0.tcp.sa.ngrok.io:11288/;stream.mp3",
-        "type": "audio/mp3",
-        "duration": 86400
-      }
-    },
-    {
       "id": "288-alumiar",      
       "title": "CD 288 | Alumiar",
       "members": "288 Temple",
@@ -2469,22 +2456,307 @@
         "type": "audio/mp3",
         "duration": 202
       }
+    },{
+      "id": "aednc-nos-amamos-a-vida-da-igreja",      
+      "title": "CD A Esperança do Nosso Chamamento | Nós Amamos a Vida da Igreja",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/nosamamosavidadaigreja.mp3",
+        "type": "audio/mp3",
+        "duration": 279
+      }
+    },
+    {
+      "id": "aednc-deus-triuno-que-misterio",      
+      "title": "CD A Esperança do Nosso Chamamento | Deus Triúno que Mistério",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/deustriunoquemisterio.mp3",
+        "type": "audio/mp3",
+        "duration": 247
+      }
+    },
+    {
+      "id": "aednc-o-amor-de-deus-e-a-graca-de-cristo",      
+      "title": "CD A Esperança do Nosso Chamamento | O Amor de Deus e a Graça de Cristo",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/oamordedeuseagracadecristo.mp3",
+        "type": "audio/mp3",
+        "duration": 258
+      }
+    },
+    {
+      "id": "aednc-a-esperanca-do-nosso-chamamento",      
+      "title": "CD A Esperança do Nosso Chamamento | A Esperança do Nosso Chamamento",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/aesperancadonossochamamento.mp3",
+        "type": "audio/mp3",
+        "duration": 214
+      }
+    },
+    {
+      "id": "aednc-o-meu-amado",      
+      "title": "CD A Esperança do Nosso Chamamento | O Meu Amado",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/omeuamado.mp3",
+        "type": "audio/mp3",
+        "duration": 170
+      }
+    },
+    {
+      "id": "aednc-a-teus-pes-senhor",      
+      "title": "CD A Esperança do Nosso Chamamento | A Teus Pés Senhor",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/ateuspessenhor",
+        "type": "audio/mp3",
+        "duration": 365
+      }
+    },
+    {
+      "id": "aednc-levantai",      
+      "title": "CD A Esperança do Nosso Chamamento | Levantai",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/levantai.mp3",
+        "type": "audio/mp3",
+        "duration": 185
+      }
+    },
+    {
+      "id": "aednc-que-te-fez-morrer-por-mim",      
+      "title": "CD A Esperança do Nosso Chamamento | Que Te fez Morrer por Mim",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/quetefezmorrerpormim.mp3",
+        "type": "audio/mp3",
+        "duration": 376
+      }
+    },
+    {
+      "id": "aednc-gloria-para-sempre",      
+      "title": "CD A Esperança do Nosso Chamamento | Glória Para Sempre",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/gloriaparasempre.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "aednc-se-no-espirito-hoje-andar",      
+      "title": "CD A Esperança do Nosso Chamamento | Se no Espírito Hoje Andar",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/senoespiritohojeandar.mp3",
+        "type": "audio/mp3",
+        "duration": 237
+      }
+    },
+    {
+      "id": "aednc-profundidade-da-riqueza",      
+      "title": "CD A Esperança do Nosso Chamamento | Profundidade da Riqueza",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/profundidadedariqueza.mp3",
+        "type": "audio/mp3",
+        "duration": 172
+      }
+    },
+    {
+      "id": "aednc-pout-pourri",      
+      "title": "CD A Esperança do Nosso Chamamento | Pout-Pourri",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/pout-pourri.mp3",
+        "type": "audio/mp3",
+        "duration": 332
+      }
+    },
+    {
+      "id": "resg-no-principio-era-o-verbo",      
+      "title": "CD Resgatados | No Princípio Era o Verbo",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/noprincipioeraoverbo.mp3",
+        "type": "audio/mp3",
+        "duration": 275
+      }
+    },
+    {
+      "id": "resg-bendito-o-homem",      
+      "title": "CD Resgatados | Bendito o Homem",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/benditoohomem.mp3",
+        "type": "audio/mp3",
+        "duration": 183
+      }
+    },
+    {
+      "id": "resg-vida-santa",      
+      "title": "CD Resgatados | Vida Santa",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/vidasanta.mp3",
+        "type": "audio/mp3",
+        "duration": 316
+      }
+    },
+    {
+      "id": "resg-resgatados",      
+      "title": "CD Resgatados | Resgatados",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/resgatados.mp3",
+        "type": "audio/mp3",
+        "duration": 186
+      }
+    },
+    {
+      "id": "resg-o-ciclo-da-comunhao-de-deus",      
+      "title": "CD Resgatados | O Ciclo da Comunhão de Deus",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/ociclodacomunhaodedeus.mp3",
+        "type": "audio/mp3",
+        "duration": 223
+      }
+    },
+    {
+      "id": "resg-realmente-amo-a-ti",      
+      "title": "CD Resgatados | Realmente Amo a Ti",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/realmenteamoati.mp3",
+        "type": "audio/mp3",
+        "duration": 218
+      }
+    },
+    {
+      "id": "resg-ao-cheiro-das-aguas",      
+      "title": "CD Resgatados | Ao Cheiro das Águas",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/aocheirodasaguas.mp3",
+        "type": "audio/mp3",
+        "duration": 197
+      }
+    },
+    {
+      "id": "resg-a-ceia-do-senhor",      
+      "title": "CD Resgatados | A Ceia do Senhor",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/aceiadosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 238
+      }
+    },
+    {
+      "id": "resg-e-meu-anelo-jesus",      
+      "title": "CD Resgatados | É Meu Anelo, Jesus",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/emeuanelojesus.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "resg-habacuque-3-17-19",      
+      "title": "CD Resgatados | Habacuque 3:17-19",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/habacuque3-17-19.mp3",
+        "type": "audio/mp3",
+        "duration": 275
+      }
+    },
+    {
+      "id": "resg-liberar-liberar",      
+      "title": "CD Resgatados | Liberar, Liberar",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/liberarliberar.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
     }
   ],
   "home": [
-    {
-      "id": "music/webradio-igcg",      
-      "title": "Web Rádio IGCG",
-      "members": "Hinos 24h por dia",
-      "published_at": "2021-09-08 20:00:00",
-      "thumbnail": "http://www.igrejaemcampinagrande.com.br/image/LogoRadio06_Transp.png",
-      "description": "<p>Nesse episódio do Faladev, Diego Fernandes se reúne com João Pedro Schmitz, Bruno Lemos e Diego Haz, para discutir sobre a importância da contribuição open source e quais desafios circulam na comunidade.</p>",
-      "file": {
-        "url": "http://0.tcp.sa.ngrok.io:11288/;stream.mp3",
-        "type": "audio/mp3",
-        "duration": 86400
-      }
-    },
     {
       "id": "cd-288",
       "title": "CD 288",
@@ -2691,6 +2963,32 @@
         "url": "",
         "type": "",
         "duration": 2641
+      }
+    },
+    {
+      "id": "cd-aesperancadonossochamamento",
+      "title": "CD A Esperança do Nosso Chamamento",
+      "members": "Grupo Manancial",
+      "published_at": "2021-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 3040
+      }
+    },
+    {
+      "id": "cd-regatados",
+      "title": "CD Regatados",
+      "members": "Grupo Manancial",
+      "published_at": "2021-09-20 00:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2544
       }
     }
   ],
@@ -5180,6 +5478,309 @@
         "url": "https://igcgcloud.netlify.app/cd-cartaviva/jovemondeestas.mp3",
         "type": "audio/mp3",
         "duration": 202
+      }
+    }
+  ],
+  "cdaesperancadonossochamamento": [
+    {
+      "id": "aednc-nos-amamos-a-vida-da-igreja",      
+      "title": "CD A Esperança do Nosso Chamamento | Nós Amamos a Vida da Igreja",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/nosamamosavidadaigreja.mp3",
+        "type": "audio/mp3",
+        "duration": 279
+      }
+    },
+    {
+      "id": "aednc-deus-triuno-que-misterio",      
+      "title": "CD A Esperança do Nosso Chamamento | Deus Triúno que Mistério",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/deustriunoquemisterio.mp3",
+        "type": "audio/mp3",
+        "duration": 247
+      }
+    },
+    {
+      "id": "aednc-o-amor-de-deus-e-a-graca-de-cristo",      
+      "title": "CD A Esperança do Nosso Chamamento | O Amor de Deus e a Graça de Cristo",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/oamordedeuseagracadecristo.mp3",
+        "type": "audio/mp3",
+        "duration": 258
+      }
+    },
+    {
+      "id": "aednc-a-esperanca-do-nosso-chamamento",      
+      "title": "CD A Esperança do Nosso Chamamento | A Esperança do Nosso Chamamento",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/aesperancadonossochamamento.mp3",
+        "type": "audio/mp3",
+        "duration": 214
+      }
+    },
+    {
+      "id": "aednc-o-meu-amado",      
+      "title": "CD A Esperança do Nosso Chamamento | O Meu Amado",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/omeuamado.mp3",
+        "type": "audio/mp3",
+        "duration": 170
+      }
+    },
+    {
+      "id": "aednc-a-teus-pes-senhor",      
+      "title": "CD A Esperança do Nosso Chamamento | A Teus Pés Senhor",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/ateuspessenhor",
+        "type": "audio/mp3",
+        "duration": 365
+      }
+    },
+    {
+      "id": "aednc-levantai",      
+      "title": "CD A Esperança do Nosso Chamamento | Levantai",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/levantai.mp3",
+        "type": "audio/mp3",
+        "duration": 185
+      }
+    },
+    {
+      "id": "aednc-que-te-fez-morrer-por-mim",      
+      "title": "CD A Esperança do Nosso Chamamento | Que Te fez Morrer por Mim",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/quetefezmorrerpormim.mp3",
+        "type": "audio/mp3",
+        "duration": 376
+      }
+    },
+    {
+      "id": "aednc-gloria-para-sempre",      
+      "title": "CD A Esperança do Nosso Chamamento | Glória Para Sempre",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/gloriaparasempre.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "aednc-se-no-espirito-hoje-andar",      
+      "title": "CD A Esperança do Nosso Chamamento | Se no Espírito Hoje Andar",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/senoespiritohojeandar.mp3",
+        "type": "audio/mp3",
+        "duration": 237
+      }
+    },
+    {
+      "id": "aednc-profundidade-da-riqueza",      
+      "title": "CD A Esperança do Nosso Chamamento | Profundidade da Riqueza",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/profundidadedariqueza.mp3",
+        "type": "audio/mp3",
+        "duration": 172
+      }
+    },
+    {
+      "id": "aednc-pout-pourri",      
+      "title": "CD A Esperança do Nosso Chamamento | Pout-Pourri",
+      "members": "Grupo Manancial",
+      "published_at": "2020-09-20 23:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/pout-pourri.mp3",
+        "type": "audio/mp3",
+        "duration": 332
+      }
+    }
+  ],
+  "cdresgatados": [
+    {
+      "id": "resg-no-principio-era-o-verbo",      
+      "title": "CD Resgatados | No Princípio Era o Verbo",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/noprincipioeraoverbo.mp3",
+        "type": "audio/mp3",
+        "duration": 275
+      }
+    },
+    {
+      "id": "resg-bendito-o-homem",      
+      "title": "CD Resgatados | Bendito o Homem",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/benditoohomem.mp3",
+        "type": "audio/mp3",
+        "duration": 183
+      }
+    },
+    {
+      "id": "resg-vida-santa",      
+      "title": "CD Resgatados | Vida Santa",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/vidasanta.mp3",
+        "type": "audio/mp3",
+        "duration": 316
+      }
+    },
+    {
+      "id": "resg-resgatados",      
+      "title": "CD Resgatados | Resgatados",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/resgatados.mp3",
+        "type": "audio/mp3",
+        "duration": 186
+      }
+    },
+    {
+      "id": "resg-o-ciclo-da-comunhao-de-deus",      
+      "title": "CD Resgatados | O Ciclo da Comunhão de Deus",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/ociclodacomunhaodedeus.mp3",
+        "type": "audio/mp3",
+        "duration": 223
+      }
+    },
+    {
+      "id": "resg-realmente-amo-a-ti",      
+      "title": "CD Resgatados | Realmente Amo a Ti",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/realmenteamoati.mp3",
+        "type": "audio/mp3",
+        "duration": 218
+      }
+    },
+    {
+      "id": "resg-ao-cheiro-das-aguas",      
+      "title": "CD Resgatados | Ao Cheiro das Águas",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/aocheirodasaguas.mp3",
+        "type": "audio/mp3",
+        "duration": 197
+      }
+    },
+    {
+      "id": "resg-a-ceia-do-senhor",      
+      "title": "CD Resgatados | A Ceia do Senhor",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/aceiadosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 238
+      }
+    },
+    {
+      "id": "resg-e-meu-anelo-jesus",      
+      "title": "CD Resgatados | É Meu Anelo, Jesus",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/emeuanelojesus.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "resg-habacuque-3-17-19",      
+      "title": "CD Resgatados | Habacuque 3:17-19",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/habacuque3-17-19.mp3",
+        "type": "audio/mp3",
+        "duration": 275
+      }
+    },
+    {
+      "id": "resg-liberar-liberar",      
+      "title": "CD Resgatados | Liberar, Liberar",
+      "members": "Restauração",
+      "published_at": "2020-09-20 23:59:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-resgatados/liberarliberar.mp3",
+        "type": "audio/mp3",
+        "duration": 205
       }
     }
   ]
