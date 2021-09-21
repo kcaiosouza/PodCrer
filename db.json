@@ -2969,7 +2969,7 @@
       "id": "cd-aesperancadonossochamamento",
       "title": "CD A Esperança do Nosso Chamamento",
       "members": "Grupo Manancial",
-      "published_at": "2021-09-20 00:00:00",
+      "published_at": "2021-09-20 10:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
       "description": "",
       "file": {
@@ -2982,7 +2982,7 @@
       "id": "cd-regatados",
       "title": "CD Regatados",
       "members": "Grupo Manancial",
-      "published_at": "2021-09-20 00:00:00",
+      "published_at": "2021-09-20 20:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdresgatados.png",
       "description": "",
       "file": {
@@ -5555,7 +5555,7 @@
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/ateuspessenhor",
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/ateuspessenhor.mp3",
         "type": "audio/mp3",
         "duration": 365
       }
