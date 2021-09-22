@@ -2529,7 +2529,7 @@
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdaesperancadonossochamamento.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/ateuspessenhor",
+        "url": "https://igcgcloud.netlify.app/cd-aesperancadonossochamamento/ateuspessenhor.mp3",
         "type": "audio/mp3",
         "duration": 365
       }
@@ -2756,14 +2756,14 @@
       }
     },
     {
-      "id": "daaa- mas-que-amor-e-esse",      
+      "id": "daaa-mas-que-amor-e-esse",      
       "title": "CD Deus Abençoe a África | Mas Que Amoer É Esse ",
       "members": "EAV",
       "published_at": "2020-09-21 13:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacddeusabencoeaafrica.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-deusabencoeaafrica/ masqueamoreesse.mp3",
+        "url": "https://igcgcloud.netlify.app/cd-deusabencoeaafrica/masqueamoreesse.mp3",
         "type": "audio/mp3",
         "duration": 248
       }
@@ -3179,7 +3179,7 @@
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdnaoandeispreocupado.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-naoandeispreocupado/quantomaisperto",
+        "url": "https://igcgcloud.netlify.app/cd-naoandeispreocupado/quantomaisperto.mp3",
         "type": "audio/mp3",
         "duration": 270
       }
@@ -3800,7 +3800,7 @@
     {
       "id": "cd-deusabencoaaafrica",
       "title": "CD Deus Abençoe a África",
-      "members": "EAV",
+      "members": "Editora Árvore da Vida",
       "published_at": "2021-09-21 01:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacddeusabencoeaafrica.png",
       "description": "",
@@ -3813,7 +3813,7 @@
     {
       "id": "cd-loqueeresllenamiescasez",
       "title": "CD Lo que Eres Llena Mi Escasez",
-      "members": "EAV",
+      "members": "Editora Árvore da Vida",
       "published_at": "2021-09-21 02:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdloqueeresllenamiescasez.png",
       "description": "",
@@ -6657,14 +6657,14 @@
   ],
   "cddeusabencoeaafrica": [
     {
-      "id": "daaa- mas-que-amor-e-esse",      
-      "title": "CD Deus Abençoe a África | Mas Que Amoer É Esse ",
+      "id": "daaa-mas-que-amor-e-esse",      
+      "title": "CD Deus Abençoe a África | Mas Que Amor É Esse ",
       "members": "EAV",
       "published_at": "2020-09-21 13:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacddeusabencoeaafrica.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-deusabencoeaafrica/ masqueamoreesse.mp3",
+        "url": "https://igcgcloud.netlify.app/cd-deusabencoeaafrica/masqueamoreesse.mp3",
         "type": "audio/mp3",
         "duration": 248
       }
@@ -7084,7 +7084,7 @@
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdnaoandeispreocupado.png",
       "description": "EM BREVE",
       "file": {
-        "url": "https://igcgcloud.netlify.app/cd-naoandeispreocupado/quantomaisperto",
+        "url": "https://igcgcloud.netlify.app/cd-naoandeispreocupado/quantomaisperto.mp3",
         "type": "audio/mp3",
         "duration": 270
       }
