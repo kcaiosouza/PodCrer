@@ -63,7 +63,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
     console.log("Coletei os dados da API, Olha ela ai a baixo:")
     console.log(data);
-
+  
     const episodes = data.map(music => {
       return {
         id: music.id,
@@ -81,8 +81,14 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
     const playListRandom = [...episodes]
 
-    playList(Object(playListRandom), Math.floor(Math.random() * (189 - 1)) + 1);
-    toggleShuffle();
+    for (let i = playListRandom.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [playListRandom[i], playListRandom[j]] = [playListRandom[j], playListRandom[i]];
+    }
+
+    console.log(playListRandom)
+
+    playList(Object(playListRandom), 0);
     console.log("Toquei a Musica")
     setTimeout(function() {
       toast.update('criarplaylist', {
