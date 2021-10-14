@@ -9,6 +9,46 @@ interface Footer {
   isEmpty?: boolean;
 }
 
+const MobileInfo = styled.div`
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+
+  border: 0;
+  background-color: #b3cdbe;
+
+
+  @media (max-width: 500px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    
+    #infobox {
+      width: 100%;
+      height: 70px;
+      position: fixed;
+      bottom: 128px;
+      left: 0px;
+      background-color: #b3cdbe;
+
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      display: none;
+    }
+
+    :hover #infobox {
+      display: flex;
+    }
+  }
+
+`
+
 const PlayerContainer = styled.div`
   padding: 3rem 4rem;
   width: 28.5rem;
@@ -261,5 +301,5 @@ const Footer = styled.footer<Footer>`
   }
 `;
 
-export { PlayerContainer, Empty, CurrentEpisode, EmptyPlayer, Progress, SliderStyle, EmptySlider, ButtonsContainer, Buttons, Footer, ImageContainer}
+export { PlayerContainer, Empty, CurrentEpisode, EmptyPlayer, Progress, SliderStyle, EmptySlider, ButtonsContainer, Buttons, Footer, ImageContainer, MobileInfo}
 

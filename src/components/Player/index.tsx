@@ -5,7 +5,7 @@ import Slider from 'rc-slider';
 
 import 'rc-slider/assets/index.css';
 
-import { PlayerContainer, CurrentEpisode, EmptyPlayer, Progress, SliderStyle, EmptySlider, ButtonsContainer, Buttons, Footer, ImageContainer } from './styles'
+import { PlayerContainer, CurrentEpisode, EmptyPlayer, Progress, SliderStyle, EmptySlider, ButtonsContainer, Buttons, Footer, ImageContainer, MobileInfo } from './styles'
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
 export function Player() {
@@ -67,6 +67,20 @@ export function Player() {
 
   return (
     <PlayerContainer>
+      <MobileInfo>
+        <img src="/info.svg" width="25px" height="25px" />
+        {episode ? (
+          <div id="infobox">
+            <span>Tocando agora:</span>
+            <strong>{episode.title}</strong>
+          </div>
+        ) : (
+          <div id="infobox">
+            <strong>Selecione uma música para ouvir!</strong>
+          </div>
+        ) }
+      </MobileInfo>
+
       <header>
         <img src="/playing.svg" alt="Tocando agora"/>
         <strong>Tocando agora</strong>
