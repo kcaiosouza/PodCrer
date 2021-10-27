@@ -85,7 +85,11 @@ const DescriptionContainer = styled.div`
   color: ${props => props.theme.colors.text800};
 
   p {
-    margin: 1.5rem 0;
+    margin: 0.7rem 0;
+  }
+
+  @media (max-width: 1440px) {
+    padding-bottom: 100px;
   }
 `;
 
