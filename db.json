@@ -4015,6 +4015,149 @@
         "type": "audio/mp3",
         "duration": 279
       }
+    },
+    {
+      "id": "sgec-sair-gerer-e-cuidar",      
+      "title": "CD Sair, Gerar e Cuidar | Sair, Gerar e Cuidar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/sairgerarecuidar.mp3",
+        "type": "audio/mp3",
+        "duration": 173
+      }
+    },
+    {
+      "id": "sgec-recomecar",      
+      "title": "CD Sair, Gerar e Cuidar | Recomeçar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/recomecar.mp3",
+        "type": "audio/mp3",
+        "duration": 216
+      }
+    },
+    {
+      "id": "sgec-gfm",      
+      "title": "CD Sair, Gerar e Cuidar | GFM",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/gfm.mp3",
+        "type": "audio/mp3",
+        "duration": 231
+      }
+    },
+    {
+      "id": "sgec-radar",      
+      "title": "CD Sair, Gerar e Cuidar | Radar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/radar.mp3",
+        "type": "audio/mp3",
+        "duration": 211
+      }
+    },
+    {
+      "id": "sgec-confio-no-senhor",      
+      "title": "CD Sair, Gerar e Cuidar | Confio no Senhor",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/confionosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "sgec-um-reto-coracao",      
+      "title": "CD Sair, Gerar e Cuidar | Um Reto Coração",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/umretocoracao.mp3",
+        "type": "audio/mp3",
+        "duration": 162
+      }
+    },
+    {
+      "id": "sgec-nao-temo-mal-algum",      
+      "title": "CD Sair, Gerar e Cuidar | Não Temo Mal Algum",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/naotemomalalgum.mp3",
+        "type": "audio/mp3",
+        "duration": 224
+      }
+    },
+    {
+      "id": "sgec-restaura-me-senhor",      
+      "title": "CD Sair, Gerar e Cuidar | Restaura-me Senhor",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/restauramesenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "sgec-um-vaso-teu",      
+      "title": "CD Sair, Gerar e Cuidar | Um Vaso Teu",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/umvasoteu.mp3",
+        "type": "audio/mp3",
+        "duration": 161
+      }
+    },
+    {
+      "id": "sgec-o-senhor-te-ama-tanto",      
+      "title": "CD Sair, Gerar e Cuidar | O Senhor Te Ama Tanto",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/osenhorteamatanto.mp3",
+        "type": "audio/mp3",
+        "duration": 235
+      }
+    },
+    {
+      "id": "sgec-mais-uma-vez",      
+      "title": "CD Sair, Gerar e Cuidar | Mais Uma Vez",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/maisumavez.mp3",
+        "type": "audio/mp3",
+        "duration": 254
+      }
     }
   ],
   "home": [
@@ -4328,6 +4471,19 @@
         "url": "",
         "type": "",
         "duration": 2610
+      }
+    },
+    {
+      "id": "cd-sairgerarecuidar",
+      "title": "CD Sair, Gerar e Cuidar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2118
       }
     }
   ],
@@ -8393,6 +8549,151 @@
         "url": "https://igcgcloud.netlify.app/cd-eusoudomeuamado/howbeautifulyouare.mp3",
         "type": "audio/mp3",
         "duration": 279
+      }
+    }
+  ],
+  "cdsairgerarecuidar": [
+    {
+      "id": "sgec-sair-gerer-e-cuidar",      
+      "title": "CD Sair, Gerar e Cuidar | Sair, Gerar e Cuidar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/sairgerarecuidar.mp3",
+        "type": "audio/mp3",
+        "duration": 173
+      }
+    },
+    {
+      "id": "sgec-recomecar",      
+      "title": "CD Sair, Gerar e Cuidar | Recomeçar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/recomecar.mp3",
+        "type": "audio/mp3",
+        "duration": 216
+      }
+    },
+    {
+      "id": "sgec-gfm",      
+      "title": "CD Sair, Gerar e Cuidar | GFM",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/gfm.mp3",
+        "type": "audio/mp3",
+        "duration": 231
+      }
+    },
+    {
+      "id": "sgec-radar",      
+      "title": "CD Sair, Gerar e Cuidar | Radar",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/radar.mp3",
+        "type": "audio/mp3",
+        "duration": 211
+      }
+    },
+    {
+      "id": "sgec-confio-no-senhor",      
+      "title": "CD Sair, Gerar e Cuidar | Confio no Senhor",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/confionosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "sgec-um-reto-coracao",      
+      "title": "CD Sair, Gerar e Cuidar | Um Reto Coração",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/umretocoracao.mp3",
+        "type": "audio/mp3",
+        "duration": 162
+      }
+    },
+    {
+      "id": "sgec-nao-temo-mal-algum",      
+      "title": "CD Sair, Gerar e Cuidar | Não Temo Mal Algum",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/naotemomalalgum.mp3",
+        "type": "audio/mp3",
+        "duration": 224
+      }
+    },
+    {
+      "id": "sgec-restaura-me-senhor",      
+      "title": "CD Sair, Gerar e Cuidar | Restaura-me Senhor",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/restauramesenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 219
+      }
+    },
+    {
+      "id": "sgec-um-vaso-teu",      
+      "title": "CD Sair, Gerar e Cuidar | Um Vaso Teu",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/umvasoteu.mp3",
+        "type": "audio/mp3",
+        "duration": 161
+      }
+    },
+    {
+      "id": "sgec-o-senhor-te-ama-tanto",      
+      "title": "CD Sair, Gerar e Cuidar | O Senhor Te Ama Tanto",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/osenhorteamatanto.mp3",
+        "type": "audio/mp3",
+        "duration": 235
+      }
+    },
+    {
+      "id": "sgec-mais-uma-vez",      
+      "title": "CD Sair, Gerar e Cuidar | Mais Uma Vez",
+      "members": "Herbert Tim",
+      "published_at": "2021-11-05 18:30:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/default.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/maisumavez.mp3",
+        "type": "audio/mp3",
+        "duration": 254
       }
     }
   ]
