@@ -38,7 +38,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function cdloqueeresllenamiescasez({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function cdlacosdeamor({ latestEpisodes, allEpisodes }: HomeProps) {
   const emojiChoose = [
     '🎵',
     '🎶',
@@ -69,7 +69,7 @@ export default function cdloqueeresllenamiescasez({ latestEpisodes, allEpisodes 
     <HomepageComponent>
       <ToastContainer />
       <Head>
-        <title>CD Lo que Eres Llena Mi Escasez | IGCGMusic</title>
+        <title>CD Laços de Amor | IGCGMusic</title>
       </Head>
       
       <LatestEpisodes>
@@ -243,7 +243,7 @@ export default function cdloqueeresllenamiescasez({ latestEpisodes, allEpisodes 
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get('cdloqueeresllenamiescasez', {
+  const { data } = await api.get('cdlacosdeamor', {
     params: {
       _limit: 1000,
       _sort: 'published_at',
