@@ -165,6 +165,7 @@ const EpisodeDetails = styled.div`
 
     &:hover {
       text-decoration: underline;
+      cursor: pointer;
     }
   }
 

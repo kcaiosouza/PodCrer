@@ -2277,7 +2277,7 @@
     },
     {
       "id": "os-so-nao-posso-ficar-sem-jesus",      
-      "title": "CD O Semeador | Só Mão Posso Ficar Sem Jesus",
+      "title": "CD O Semeador | Só Não Posso Ficar Sem Jesus",
       "members": "Grupo Vocal Primícias",
       "published_at": "2021-09-18 20:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdosemeador.png",
@@ -4158,6 +4158,149 @@
         "type": "audio/mp3",
         "duration": 254
       }
+    },
+    {
+      "id": "lda-lacos-de-amor",      
+      "title": "CD Laços de Amor | Laços de Amor",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/lacosdeamor.mp3",
+        "type": "audio/mp3",
+        "duration": 249
+      }
+    },
+    {
+      "id": "lda-no-senhor-meu-coracao-confia",      
+      "title": "CD Laços de Amor | No Senhor Meu Coração Confia",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/nosenhormeucoracaoconfia.mp3",
+        "type": "audio/mp3",
+        "duration": 247
+      }
+    },
+    {
+      "id": "lda-negar-a-mim-mesmo-e-seguir-o-senhor",      
+      "title": "CD Laços de Amor | Negar a Mim Mesmo e Seguir o Senhor",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/negaramimmesmoeseguirosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 209
+      }
+    },
+    {
+      "id": "lda-minha-oracao",      
+      "title": "CD Laços de Amor | Minha Oração",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/minhaoracao.mp3",
+        "type": "audio/mp3",
+        "duration": 212
+      }
+    },
+    {
+      "id": "lda-emanuel",      
+      "title": "CD Laços de Amor | Emanuel",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/emanuel.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "lda-apressando-a-volta-do-senhor",      
+      "title": "CD Laços de Amor | Apressando a Volta do Senhor",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/apressandoavoltadosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 204
+      }
+    },
+    {
+      "id": "lda-servir-te",      
+      "title": "CD Laços de Amor | Servir-Te",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/servirte.mp3",
+        "type": "audio/mp3",
+        "duration": 259
+      }
+    },
+    {
+      "id": "lda-bem-aventurados",      
+      "title": "CD Laços de Amor | Bem Aventurados",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/bemaventurados.mp3",
+        "type": "audio/mp3",
+        "duration": 212
+      }
+    },
+    {
+      "id": "lda-tomar-me-para-Si",      
+      "title": "CD Laços de Amor | Tomar-me Para Si",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/tomarmeparasi.mp3",
+        "type": "audio/mp3",
+        "duration": 225
+      }
+    },
+    {
+      "id": "lda-diante-de-ti",      
+      "title": "CD Laços de Amor | Diante de Ti",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/diantedeti.mp3",
+        "type": "audio/mp3",
+        "duration": 234
+      }
+    },
+    {
+      "id": "lda-o-evangelho-completo-de-deus",      
+      "title": "CD Laços de Amor | O Evangelho Completo de Deus",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/oevangelhocompletodedeus.mp3",
+        "type": "audio/mp3",
+        "duration": 274
+      }
     }
   ],
   "home": [
@@ -4484,6 +4627,19 @@
         "url": "",
         "type": "",
         "duration": 2118
+      }
+    },
+    {
+      "id": "cd-lacosdeamor",
+      "title": "CD Laços de Amor",
+      "members": "Editora Árvore da Vida",
+      "published_at": "2021-11-05 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2553
       }
     }
   ],
@@ -6789,7 +6945,7 @@
     },
     {
       "id": "os-so-nao-posso-ficar-sem-jesus",      
-      "title": "CD O Semeador | Só Mão Posso Ficar Sem Jesus",
+      "title": "CD O Semeador | Só Não Posso Ficar Sem Jesus",
       "members": "Grupo Vocal Primícias",
       "published_at": "2021-09-18 20:00:00",
       "thumbnail": "https://igcgcloud.netlify.app/images/capacdosemeador.png",
@@ -8694,6 +8850,151 @@
         "url": "https://igcgcloud.netlify.app/cd-sairgerarecuidar/maisumavez.mp3",
         "type": "audio/mp3",
         "duration": 254
+      }
+    }
+  ],
+  "cdlacosdeamor": [
+    {
+      "id": "lda-lacos-de-amor",      
+      "title": "CD Laços de Amor | Laços de Amor",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/lacosdeamor.mp3",
+        "type": "audio/mp3",
+        "duration": 249
+      }
+    },
+    {
+      "id": "lda-no-senhor-meu-coracao-confia",      
+      "title": "CD Laços de Amor | No Senhor Meu Coração Confia",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/nosenhormeucoracaoconfia.mp3",
+        "type": "audio/mp3",
+        "duration": 247
+      }
+    },
+    {
+      "id": "lda-negar-a-mim-mesmo-e-seguir-o-senhor",      
+      "title": "CD Laços de Amor | Negar a Mim Mesmo e Seguir o Senhor",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/negaramimmesmoeseguirosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 209
+      }
+    },
+    {
+      "id": "lda-minha-oracao",      
+      "title": "CD Laços de Amor | Minha Oração",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/minhaoracao.mp3",
+        "type": "audio/mp3",
+        "duration": 212
+      }
+    },
+    {
+      "id": "lda-emanuel",      
+      "title": "CD Laços de Amor | Emanuel",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/emanuel.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "lda-apressando-a-volta-do-senhor",      
+      "title": "CD Laços de Amor | Apressando a Volta do Senhor",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/apressandoavoltadosenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 204
+      }
+    },
+    {
+      "id": "lda-servir-te",      
+      "title": "CD Laços de Amor | Servir-Te",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/servirte.mp3",
+        "type": "audio/mp3",
+        "duration": 259
+      }
+    },
+    {
+      "id": "lda-bem-aventurados",      
+      "title": "CD Laços de Amor | Bem Aventurados",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/bemaventurados.mp3",
+        "type": "audio/mp3",
+        "duration": 212
+      }
+    },
+    {
+      "id": "lda-tomar-me-para-Si",      
+      "title": "CD Laços de Amor | Tomar-me Para Si",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/tomarmeparasi.mp3",
+        "type": "audio/mp3",
+        "duration": 225
+      }
+    },
+    {
+      "id": "lda-diante-de-ti",      
+      "title": "CD Laços de Amor | Diante de Ti",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/diantedeti.mp3",
+        "type": "audio/mp3",
+        "duration": 234
+      }
+    },
+    {
+      "id": "lda-o-evangelho-completo-de-deus",      
+      "title": "CD Laços de Amor | O Evangelho Completo de Deus",
+      "members": "EAV",
+      "published_at": "2021-11-12 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdlacosdeamor.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/oevangelhocompletodedeus.mp3",
+        "type": "audio/mp3",
+        "duration": 274
       }
     }
   ]

@@ -86,24 +86,26 @@ export default function cdcaminhoseguro({ latestEpisodes, allEpisodes }: HomePro
           {latestEpisodes.map((episode, index) =>{
             return (
               <li key={episode.id}>
-                <ImageContainer>
-                  <Image 
-                    width={192}
-                    height={192} 
-                    src={episode.thumbnail} 
-                    alt={episode.title}
-                    objectFit="cover"
-                  />
-                </ImageContainer>
+                <Link href={`/music/${episode.id}`}>
+                  <ImageContainer>
+                    <Image 
+                      width={192}
+                      height={192} 
+                      src={episode.thumbnail} 
+                      alt={episode.title}
+                      objectFit="cover"
+                    />
+                  </ImageContainer>
+                </Link>
 
-                <EpisodeDetails>
-                  <Link href={`/music/${episode.id}`}>
+                <Link href={`/music/${episode.id}`}>
+                  <EpisodeDetails>
                     <a>{episode.title}</a>
-                  </Link>
-                  <p>{episode.members}</p>
-                  <span>{episode.publishedAt}</span>
-                  <span>{episode.durationAsString}</span>
-                </EpisodeDetails>
+                    <p>{episode.members}</p>
+                    <span>{episode.publishedAt}</span>
+                    <span>{episode.durationAsString}</span>
+                  </EpisodeDetails>
+                </Link>
 
                 <button id="playMusic" type="button" onClick={() => playList(episodeList, index)}>
                   <img src="/play-green.svg" alt="Tocar episódio"/>
@@ -192,24 +194,26 @@ export default function cdcaminhoseguro({ latestEpisodes, allEpisodes }: HomePro
               {allEpisodes.map((episode, index) =>{
                 return (
                   <li key={episode.id}>
-                    <ImageContainer>
-                      <Image 
-                        width={192}
-                        height={192} 
-                        src={episode.thumbnail} 
-                        alt={episode.title}
-                        objectFit="cover"
-                      />
-                    </ImageContainer>
+                    <Link href={`/music/${episode.id}`}>
+                  <ImageContainer>
+                    <Image 
+                      width={192}
+                      height={192} 
+                      src={episode.thumbnail} 
+                      alt={episode.title}
+                      objectFit="cover"
+                    />
+                  </ImageContainer>
+                </Link>
 
-                    <EpisodeDetails>
-                      <Link href={`/music/${episode.id}`}>
-                        <a>{episode.title}</a>
-                      </Link>
-                      <p>{episode.members}</p>
-                      <span>{episode.publishedAt}</span>
-                      <span>{episode.durationAsString}</span>
-                    </EpisodeDetails>
+                <Link href={`/music/${episode.id}`}>
+                  <EpisodeDetails>
+                    <a>{episode.title}</a>
+                    <p>{episode.members}</p>
+                    <span>{episode.publishedAt}</span>
+                    <span>{episode.durationAsString}</span>
+                  </EpisodeDetails>
+                </Link>
 
                     <button id="playMusic" type="button" onClick={() => playList(episodeList, index + latestEpisodes.length)}>
                       <img src="/play-green.svg" alt="Tocar episódio"/>
