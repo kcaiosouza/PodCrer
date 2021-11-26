@@ -4301,6 +4301,149 @@
         "type": "audio/mp3",
         "duration": 274
       }
+    },
+    {
+      "id": "tdc-filho-querido",      
+      "title": "CD Tempo de Colher | Filho Querido",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/filhoquerido.mp3",
+        "type": "audio/mp3",
+        "duration": 220
+      }
+    },
+    {
+      "id": "tdc-tempo-de-colher",      
+      "title": "CD Tempo de Colher | Tempo de Colher",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/tempodecolher.mp3",
+        "type": "audio/mp3",
+        "duration": 207
+      }
+    },
+    {
+      "id": "tdc-soldado-valente",      
+      "title": "CD Tempo de Colher | Soldado Valente",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/soldadovalente.mp3",
+        "type": "audio/mp3",
+        "duration": 214
+      }
+    },
+    {
+      "id": "tdc-amo-invocar",      
+      "title": "CD Tempo de Colher | Amo Invocar",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/amoinvocar.mp3",
+        "type": "audio/mp3",
+        "duration": 197
+      }
+    },
+    {
+      "id": "tdc-reina-em-mim-senhor",      
+      "title": "CD Tempo de Colher | Reina Em Mim Senhor",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/reinaemmimsenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 227
+      }
+    },
+    {
+      "id": "tdc-como-proceder",      
+      "title": "CD Tempo de Colher | Como Proceder",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/comoproceder.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "tdc-fala-senhor-insista-comigo",      
+      "title": "CD Tempo de Colher | Fala Senhor, Insista Comigo",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/falasenhorinsistacomigo.mp3",
+        "type": "audio/mp3",
+        "duration": 218
+      }
+    },
+    {
+      "id": "tdc-ceifa-gloriosa",      
+      "title": "CD Tempo de Colher | Ceifa Gloriosa",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/ceifagloriosa.mp3",
+        "type": "audio/mp3",
+        "duration": 108
+      }
+    },
+    {
+      "id": "tdc-quem-ha-semelhante-a-ti",      
+      "title": "CD Tempo de Colher | Quem Há Semelhante a Ti",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/quemhasemelhanteati.mp3",
+        "type": "audio/mp3",
+        "duration": 248
+      }
+    },
+    {
+      "id": "tdc-guia-me-pelo-caminho-eterno",      
+      "title": "CD Tempo de Colher | Guia Me Pelo Caminho Eterno",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/guiamepelocaminhoeterno.mp3",
+        "type": "audio/mp3",
+        "duration": 230
+      }
+    },
+    {
+      "id": "tdc-falar-servir-e-ofertar",      
+      "title": "CD Tempo de Colher | Falar, Servir e Ofertar",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/falarservireofertar.mp3",
+        "type": "audio/mp3",
+        "duration": 225
+      }
     }
   ],
   "home": [
@@ -4640,6 +4783,19 @@
         "url": "",
         "type": "",
         "duration": 2553
+      }
+    },
+    {
+      "id": "cd-tempodecolher",
+      "title": "CD Tempo de Colher",
+      "members": "Editora Árvore da Vida",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2299
       }
     }
   ],
@@ -8995,6 +9151,151 @@
         "url": "https://igcgcloud.netlify.app/cd-lacosdeamor/oevangelhocompletodedeus.mp3",
         "type": "audio/mp3",
         "duration": 274
+      }
+    }
+  ],
+  "cdtempodecolher": [
+    {
+      "id": "tdc-filho-querido",      
+      "title": "CD Tempo de Colher | Filho Querido",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/filhoquerido.mp3",
+        "type": "audio/mp3",
+        "duration": 220
+      }
+    },
+    {
+      "id": "tdc-tempo-de-colher",      
+      "title": "CD Tempo de Colher | Tempo de Colher",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/tempodecolher.mp3",
+        "type": "audio/mp3",
+        "duration": 207
+      }
+    },
+    {
+      "id": "tdc-soldado-valente",      
+      "title": "CD Tempo de Colher | Soldado Valente",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/soldadovalente.mp3",
+        "type": "audio/mp3",
+        "duration": 214
+      }
+    },
+    {
+      "id": "tdc-amo-invocar",      
+      "title": "CD Tempo de Colher | Amo Invocar",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/amoinvocar.mp3",
+        "type": "audio/mp3",
+        "duration": 197
+      }
+    },
+    {
+      "id": "tdc-reina-em-mim-senhor",      
+      "title": "CD Tempo de Colher | Reina Em Mim Senhor",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/reinaemmimsenhor.mp3",
+        "type": "audio/mp3",
+        "duration": 227
+      }
+    },
+    {
+      "id": "tdc-como-proceder",      
+      "title": "CD Tempo de Colher | Como Proceder",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/comoproceder.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "tdc-fala-senhor-insista-comigo",      
+      "title": "CD Tempo de Colher | Fala Senhor, Insista Comigo",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/falasenhorinsistacomigo.mp3",
+        "type": "audio/mp3",
+        "duration": 218
+      }
+    },
+    {
+      "id": "tdc-ceifa-gloriosa",      
+      "title": "CD Tempo de Colher | Ceifa Gloriosa",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/ceifagloriosa.mp3",
+        "type": "audio/mp3",
+        "duration": 108
+      }
+    },
+    {
+      "id": "tdc-quem-ha-semelhante-a-ti",      
+      "title": "CD Tempo de Colher | Quem Há Semelhante a Ti",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/quemhasemelhanteati.mp3",
+        "type": "audio/mp3",
+        "duration": 248
+      }
+    },
+    {
+      "id": "tdc-guia-me-pelo-caminho-eterno",      
+      "title": "CD Tempo de Colher | Guia Me Pelo Caminho Eterno",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/guiamepelocaminhoeterno.mp3",
+        "type": "audio/mp3",
+        "duration": 230
+      }
+    },
+    {
+      "id": "tdc-falar-servir-e-ofertar",      
+      "title": "CD Tempo de Colher | Falar, Servir e Ofertar",
+      "members": "EAV",
+      "published_at": "2021-11-26 19:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdtempodecolher.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-tempodecolher/falarservireofertar.mp3",
+        "type": "audio/mp3",
+        "duration": 225
       }
     }
   ]
