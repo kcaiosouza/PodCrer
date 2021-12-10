@@ -4444,6 +4444,123 @@
         "type": "audio/mp3",
         "duration": 225
       }
+    },
+    {
+      "id": "mr-o-senhor-da-barca",      
+      "title": "CD Mesa Rica | O Senhor da Barca",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/osenhordabarca.mp3",
+        "type": "audio/mp3",
+        "duration": 207
+      }
+    },
+    {
+      "id": "mr-mesa-rica",      
+      "title": "CD Mesa Rica | Mesa Rica",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/mesarica.mp3",
+        "type": "audio/mp3",
+        "duration": 300
+      }
+    },
+    {
+      "id": "mr-eu-quero-avancar",      
+      "title": "CD Mesa Rica | Eu Quero Avançar",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/euqueroavancar.mp3",
+        "type": "audio/mp3",
+        "duration": 237
+      }
+    },
+    {
+      "id": "mr-oracao-do-ramo-infertil",      
+      "title": "CD Mesa Rica | Oração do Ramo Infértil",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/oracaodoramoinfertil.mp3",
+        "type": "audio/mp3",
+        "duration": 254
+      }
+    },
+    {
+      "id": "mr-vida-plena",      
+      "title": "CD Mesa Rica | Vida Plena",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/vidaplena.mp3",
+        "type": "audio/mp3",
+        "duration": 241
+      }
+    },
+    {
+      "id": "mr-eu-quero-o-que-queres",      
+      "title": "CD Mesa Rica | Eu Quero o Que Queres",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/euquerooquequeres.mp3",
+        "type": "audio/mp3",
+        "duration": 333
+      }
+    },
+    {
+      "id": "mr-em-cristo",      
+      "title": "CD Mesa Rica | Em Cristo",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/emcristo.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "mr-senhor-vem-comigo",      
+      "title": "CD Mesa Rica | Senhor, Vem Comigo!",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/senhorvemcomigo.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "mr-atimo-final",      
+      "title": "CD Mesa Rica | Átimo Final",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/atimofinal.mp3",
+        "type": "audio/mp3",
+        "duration": 278
+      }
     }
   ],
   "home": [
@@ -4796,6 +4913,19 @@
         "url": "",
         "type": "",
         "duration": 2299
+      }
+    },
+    {
+      "id": "cd-mesarica",
+      "title": "CD Mesa Rica",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "",
+      "file": {
+        "url": "",
+        "type": "",
+        "duration": 2283
       }
     }
   ],
@@ -9296,6 +9426,125 @@
         "url": "https://igcgcloud.netlify.app/cd-tempodecolher/falarservireofertar.mp3",
         "type": "audio/mp3",
         "duration": 225
+      }
+    }
+  ],
+  "cdmesarica": [
+    {
+      "id": "mr-o-senhor-da-barca",      
+      "title": "CD Mesa Rica | O Senhor da Barca",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/osenhordabarca.mp3",
+        "type": "audio/mp3",
+        "duration": 207
+      }
+    },
+    {
+      "id": "mr-mesa-rica",      
+      "title": "CD Mesa Rica | Mesa Rica",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/mesarica.mp3",
+        "type": "audio/mp3",
+        "duration": 300
+      }
+    },
+    {
+      "id": "mr-eu-quero-avancar",      
+      "title": "CD Mesa Rica | Eu Quero Avançar",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/euqueroavancar.mp3",
+        "type": "audio/mp3",
+        "duration": 237
+      }
+    },
+    {
+      "id": "mr-oracao-do-ramo-infertil",      
+      "title": "CD Mesa Rica | Oração do Ramo Infértil",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/oracaodoramoinfertil.mp3",
+        "type": "audio/mp3",
+        "duration": 254
+      }
+    },
+    {
+      "id": "mr-vida-plena",      
+      "title": "CD Mesa Rica | Vida Plena",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/vidaplena.mp3",
+        "type": "audio/mp3",
+        "duration": 241
+      }
+    },
+    {
+      "id": "mr-eu-quero-o-que-queres",      
+      "title": "CD Mesa Rica | Eu Quero o Que Queres",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/euquerooquequeres.mp3",
+        "type": "audio/mp3",
+        "duration": 333
+      }
+    },
+    {
+      "id": "mr-em-cristo",      
+      "title": "CD Mesa Rica | Em Cristo",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/emcristo.mp3",
+        "type": "audio/mp3",
+        "duration": 205
+      }
+    },
+    {
+      "id": "mr-senhor-vem-comigo",      
+      "title": "CD Mesa Rica | Senhor, Vem Comigo!",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/senhorvemcomigo.mp3",
+        "type": "audio/mp3",
+        "duration": 228
+      }
+    },
+    {
+      "id": "mr-atimo-final",      
+      "title": "CD Mesa Rica | Átimo Final",
+      "members": "José Maria e Marcos Landell",
+      "published_at": "2021-12-10 20:00:00",
+      "thumbnail": "https://igcgcloud.netlify.app/images/capacdmesarica.png",
+      "description": "EM BREVE",
+      "file": {
+        "url": "https://igcgcloud.netlify.app/cd-mesarica/atimofinal.mp3",
+        "type": "audio/mp3",
+        "duration": 278
       }
     }
   ]
