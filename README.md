@@ -1,22 +1,13 @@
 <h1 align="center">
-    <img alt="Podcastr" title="Podcastr" src=".github/podcastr.svg" />
+    <img alt="IGCGMusic" title="IGCGMusic" src="http://www.igrejaemcampinagrande.com.br/old/image/igcgmusic_all.jpeg" />
 </h1>
-
-<p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
 
 <p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
   
-  <img src="https://img.shields.io/github/forks/C0bal/reactjs-podcastr-nlw5?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">
+  <img src="https://img.shields.io/github/forks/kcaiosouza/PodCrer?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/C0bal/reactjs-podcastr-nlw5?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
+  <img src="https://img.shields.io/github/stars/kcaiosouza/PodCrer?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
 </p>
 
 <br>
@@ -25,55 +16,26 @@
   <img alt="Moveit" src=".github/icon.svg" width="120px">
 </p>
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
-This project was developed using the following technologies:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 🔥 Preview
+## 🔥 Modelo
 
-[![Deploy with Vercel](https://vercel.com/button)](https://reactjs-podcastr-nlw5.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)](https://igcgmusic.com.br/)
 
-## 🚀 Getting started
+## 🔖 Projeto
 
-Clone the project and access the folder
-
-```bash
-$ git clone https://github.com/C0bal/reactjs-podcastr-nlw5 && cd reactjs-podcastr-nlw5
-```
-
-Follow the steps below
-
-```bash
-# Install the dependencies
-$ yarn
-
-# Start the project
-$ yarn dev
-```
-
-## 💻 Project
-
-[Podcastr](https://podcastr-nlw.vercel.app/) to bring you even closer to the best technology podcasts! 💜
-
-This is a project developed during the **[Next Level Week](https://nextlevelweek.com/)**, presented by **[@Rocketseat](https://github.com/Rocketseat)** during April 19-25, 2021.
-
-## 🔖 Layout
-
-You can view the project layout through the links below:
-
-- [Layout Web](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr?node-id=160%3A2761)
-
-Remembering that you need to have a [Figma](http://figma.com/) account to access it.
+Esse projeto foi desenvolvido durante o Next Level Week 5 da Rocketseat 💜
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+MIT License. [LICENSE](LICENSE.md)
 
 ---
 
-<p align="center">Projected by Rafael Menegon with 🖤</p>
-<p align="center">Readme inspired by Guilherme Capitão</p>
+<p align="center">Desenvolvido por Caio Souza</p>
