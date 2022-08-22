@@ -31,7 +31,7 @@ type Episode = {
 type HomeProps = {
   latestEpisodes: Episode[];
   allEpisodes: Episode[];
-  shuffleEpisodes: Episodes[];
+  shuffleEpisodes: Episode[];
 }
 
 //chamada API em SSG(Static site generator) => faz o mesmo que o SSR porém mudando o nome da função e 
