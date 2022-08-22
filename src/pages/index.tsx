@@ -31,6 +31,7 @@ type Episode = {
 type HomeProps = {
   latestEpisodes: Episode[];
   allEpisodes: Episode[];
+  shuffleEpisodes: Episodes[];
 }
 
 //chamada API em SSG(Static site generator) => faz o mesmo que o SSR porém mudando o nome da função e 
@@ -38,7 +39,7 @@ type HomeProps = {
 //então com este metodo quando uma pessoa acessar a home, é gerado um html estático que será mostrado para
 //as proximas pessoa que acessarem o site, e mudará apenas quando a api carregar novamente, assim repetindo o processo
 
-export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: HomeProps) {
   const { playList, toggleShuffle } = usePlayer();
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
@@ -54,26 +55,19 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
       progress: undefined,
       toastId: 'criarplaylist'
     })
-    const { data } = await api.get('slug', {
-      params: {
-        _limit: 1000,
-        _sort: 'published_at',
-        _order: 'desc',
-    }})
 
     console.log("Coletei os dados da API, Olha ela ai a baixo:")
-    console.log(data);
+    console.log(shuffleEpisodes);
   
-    const episodes = data.map(music => {
+    const episodes = shuffleEpisodes.map(music => {
       return {
         id: music.id,
         title: music.title,
         thumbnail: music.thumbnail,
         members: music.members,
-        publishedAt: format(parseISO(music.published_at), 'd MMM yy', { locale: ptBR }),
-        duration: Number(music.file.duration),
-        durationAsString: convertDurationToTimeString(Number(music.file.duration)),
-        url: music.file.url,
+        duration: music.duration,
+        durationAsString: music.durationAsString,
+        url: music.url,
       }
     })
     
@@ -234,7 +228,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get('home', {
+  const home = await api.get('home', {
     params: {
       _limit: 1000,
       _sort: 'published_at',
@@ -242,7 +236,28 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   })
 
-  const episodes = data.map(episode => {
+  const slug = await api.get('slug', {
+    params: {
+      _limit: 5000,
+      _sort: 'published_at',
+      _order: 'desc',
+    },
+  })
+
+  const episodes = home.data.map(episode => {
+    return {
+      id: episode.id,
+      title: episode.title,
+      thumbnail: episode.thumbnail,
+      members: episode.members,
+      publishedAt: format(parseISO(episode.published_at), 'd MMM yy', { locale: ptBR }),
+      duration: Number(episode.file.duration),
+      durationAsString: convertDurationToTimeString(Number(episode.file.duration)),
+      url: episode.file.url,
+    }
+  })
+
+  const shuffle = slug.data.map(episode => {
     return {
       id: episode.id,
       title: episode.title,
@@ -257,11 +272,13 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const latestEpisodes = episodes.slice(0, 2);
   const allEpisodes = episodes.slice(2, episodes.length);
+  const shuffleEpisodes = shuffle;
 
   return {
       props: {
         latestEpisodes,
         allEpisodes,
+        shuffleEpisodes,
       },
       revalidate: 60 * 60 * 8,
   }
