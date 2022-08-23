@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 //Notificação addQueue
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -25,6 +25,7 @@ type Episode = {
   duration: number;
   durationAsString: string;
   publishedAt: string;
+  published_at: string;
   url: string;
 }
 
@@ -41,6 +42,37 @@ type HomeProps = {
 
 export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: HomeProps) {
   const { playList, toggleShuffle } = usePlayer();
+
+  const [ search, setSearch ] = useState('');
+  const filteredMusic = search.length > 0
+  ? shuffleEpisodes.filter(music => music.title.toLowerCase()
+  .replace(/[ç]/,"c")
+  .replace(/[Ç]/,"C")
+  .replace(/[ÈÉÊË]/,"E")
+  .replace(/[èéê]/,"e")
+  .replace(/[ÍÌ]/,"I")
+  .replace(/[ìí]/,"i")
+  .replace(/[ÔÒÓ]/,"O")
+  .replace(/[ôòó]/,"o")
+  .replace(/[ÙÚ]/,"U")
+  .replace(/[úù]/,"u")
+  .replace(/[àáâãäå]/,"a")
+  .replace(/[ÀÁÂÃÄÅ]/,"A")
+  .includes(search.toLowerCase()
+  .replace(/[ç]/,"c")
+  .replace(/[Ç]/,"C")
+  .replace(/[ÈÉÊË]/,"E")
+  .replace(/[èéê]/,"e")
+  .replace(/[ÍÌ]/,"I")
+  .replace(/[ìí]/,"i")
+  .replace(/[ÔÒÓ]/,"O")
+  .replace(/[ôòó]/,"o")
+  .replace(/[ÙÚ]/,"U")
+  .replace(/[úù]/,"u")
+  .replace(/[àáâãäå]/,"a")
+  .replace(/[ÀÁÂÃÄÅ]/,"A")
+  ))
+  : [];
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
   
@@ -130,34 +162,54 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
         </LatestEpisodes>
 
         <AllEpisodes>
-          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}} >
-
             <h2>Todos os CDs</h2>
+          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20}} >
+
+
+            <input
+             name='SearchMusic'
+             type='text'
+             placeholder='Buscar música...'
+             onChange={(e) => setSearch(e.target.value)}
+             value={search}
+             style={{
+              width: '100%',
+              padding: 7,
+              borderRadius: 50,
+              borderWidth: 2,
+              borderColor: '#b3cdbe',
+              borderStyle: 'solid'
+             }}
+            />
+
             <button
 
             style={{
               backgroundColor: '#b3cdbe',
               border: 0,
               borderRadius: 30,
-              paddingRight: 15,
-              paddingLeft: 15,
+              paddingRight: 10,
+              paddingLeft: 10,
               paddingTop: 10,
               paddingBottom: 10,
+              marginLeft: 10,
               color:'#fff',
               fontSize: 16,
               fontWeight: 'bold',
               display:'flex',
-              alignItems: 'center'}}
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
 
             onClick={() => { randomplaylist() }}>
-              
-              SURPREENDA-ME
-            <img style={{marginLeft: 10}}
+            <img style={{marginLeft: 0}}
               src="/shuffle.svg"
               alt="shuffle"/></button>
 
           </div>
-          <AllEpisodesTable cellSpacing={0}>
+
+          {search.length > 0 ? <>
+            <AllEpisodesTable cellSpacing={0}>
             <thead>
               <tr>
                 <th></th>
@@ -165,10 +217,11 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
                 <th>Autores</th>
                 <th>Data</th>
                 <th>Duração</th>
+                <th></th>
               </tr>
             </thead>
             <tbody>
-              {allEpisodes.map((data) =>{
+              {filteredMusic.map((data, index) =>{
                 return (
                   <tr key={data.id}>
                     <td style={{width: 72}}>
@@ -181,13 +234,17 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
                       />
                     </td>
                     <td>
-                      <Link href={`/${data.id}`}>
+                      <Link href={`/music/${data.id}`}>
                         <a>{data.title}</a>
                       </Link>
                     </td>
                     <td>{data.members}</td>
                     <td style={{width: 100}}>{data.publishedAt}</td>
                     <td style={{width: 10}}>{data.durationAsString}</td>
+                    <td style={{width: 100}}>
+                      <button type="button" onClick={() => playList(filteredMusic, index )}>
+                        <img src="/play-green.svg" alt="Tocar episódio" />
+                      </button></td>
                   </tr>
                 )
               })}
@@ -196,7 +253,7 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
 
           <AllEpisodesCard>
             <ul>
-              {allEpisodes.map((data) =>{
+              {filteredMusic.map((data, index) =>{
                 return (
                   <li key={data.id}>
                     <ImageContainer>
@@ -210,18 +267,91 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
                     </ImageContainer>
 
                     <EpisodeDetails>
-                      <Link href={`/${data.id}`}>
+                      <Link href={`/music/${data.id}`}>
                         <a>{data.title}</a>
                       </Link>
                       <p>{data.members}</p>
                       <span>{data.publishedAt}</span>
                       <span>{data.durationAsString}</span>
                     </EpisodeDetails>
+
+                    <button id="addQueue" type="button" onClick={() => playList(filteredMusic, index)}>
+                      <img src="/play-green.svg" alt="Tocar episódio"/>
+                    </button>
                   </li>
                 )
               })}
             </ul>
           </AllEpisodesCard>
+          </> : <>
+          <AllEpisodesTable cellSpacing={0}>
+          <thead>
+            <tr>
+              <th></th>
+              <th>CDs</th>
+              <th>Autores</th>
+              <th>Data</th>
+              <th>Duração</th>
+            </tr>
+          </thead>
+          <tbody>
+            {allEpisodes.map((data) =>{
+              return (
+                <tr key={data.id}>
+                  <td style={{width: 72}}>
+                    <Image 
+                      width={120}
+                      height={120}
+                      src={data.thumbnail}
+                      alt={data.title}
+                      objectFit="cover"
+                    />
+                  </td>
+                  <td>
+                    <Link href={`/${data.id}`}>
+                      <a>{data.title}</a>
+                    </Link>
+                  </td>
+                  <td>{data.members}</td>
+                  <td style={{width: 100}}>{data.publishedAt}</td>
+                  <td style={{width: 10}}>{data.durationAsString}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </AllEpisodesTable>
+
+        <AllEpisodesCard>
+          <ul>
+            {allEpisodes.map((data) =>{
+              return (
+                <li key={data.id}>
+                  <ImageContainer>
+                    <Image 
+                      width={192}
+                      height={192} 
+                      src={data.thumbnail} 
+                      alt={data.title}
+                      objectFit="cover"
+                    />
+                  </ImageContainer>
+
+                  <Link href={`/${data.id}`}>
+                    <EpisodeDetails>
+                    <a>{data.title}</a>
+                    <p>{data.members}</p>
+                    <span>{data.publishedAt}</span>
+                    <span>{data.durationAsString}</span>
+                    </EpisodeDetails>
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </AllEpisodesCard>
+        </>
+          }
+
         </AllEpisodes>
     </HomepageComponent>
   )
