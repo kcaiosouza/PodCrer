@@ -37,6 +37,11 @@ export default function Episode({ episode }: EpisodeProps) {
     <EpisodeContainer>
       
       <Head>
+        <meta property="og:title" content={episode.title}/>
+        <meta property="og:description" content={`Vem desfrutar desse hino comigo! Gravado por: ${episode.members} | Duração: ${episode.durationAsString}`}/>
+        <meta property="og:image" content={episode.thumbnail}/>
+        <meta property="og:url" content="https://igcgmusic.com.br/"/>
+        <meta property="og:type" content="website"/>
         <title>{episode.title} | IGCGMuisc</title>
       </Head>
 
