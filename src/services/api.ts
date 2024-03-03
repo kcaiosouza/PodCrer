@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: process.env.API_URL ||  'https://8bd1-2804-29b8-5077-9fcd-610f-8a72-4b78-a2c2.ngrok-free.app'
+  baseURL: process.env.API_URL ||  'https://a7e0-2804-29b8-5077-9fcd-f871-7274-ba99-74ad.ngrok-free.app'
 })
