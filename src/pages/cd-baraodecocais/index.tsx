@@ -69,7 +69,7 @@ export default function cdyahayvictoria({ latestEpisodes, allEpisodes }: HomePro
     <HomepageComponent>
       <ToastContainer />
       <Head>
-        <title>CD Ya hay Victoria | IGCGMusic</title>
+        <title>CD Igreja em Barão de Cocais | IGCGMusic</title>
       </Head>
 
       <LatestEpisodes>
