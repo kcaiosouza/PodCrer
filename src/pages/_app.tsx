@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 //import usePersistedState from '../utils/usePersistedState';
 
@@ -25,6 +25,31 @@ function MyApp({ Component, pageProps }) {
   Router.events.on("routeChangeStart", () => NProgress.start());
   Router.events.on("routeChangeComplete", () => NProgress.done());
   Router.events.on("routeChangeError", () => NProgress.done());
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+      const ua = navigator.userAgent.toLowerCase();
+      const isTV = ua.includes('smarttv') || 
+                   ua.includes('tizen') || 
+                   ua.includes('webos') || 
+                   ua.includes('smart-tv') || 
+                   ua.includes('netcast') || 
+                   ua.includes('opera tv') || 
+                   ua.includes('appletv') || 
+                   ua.includes('hbbtv') || 
+                   ua.includes('ce-html');
+
+      if (!isTV) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registrado:', reg.scope))
+            .catch(err => console.warn('Erro ao registrar Service Worker:', err));
+        });
+      } else {
+        console.log('Dispositivo de TV detectado. Ignorando registro de Service Worker.');
+      }
+    }
+  }, []);
 
   const [theme, setTheme] = useState(light);
 

@@ -384,4 +384,116 @@ const AllEpisodesCard = styled.section`
   }
 `;
 
+export const SearchBarContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+`;
+
+export const SearchInputWrapper = styled.div`
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SearchInputContainer = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  svg.search-icon {
+    position: absolute;
+    left: 1.25rem;
+    color: ${props => props.theme.colors.text200};
+    width: 1.25rem;
+    height: 1.25rem;
+    pointer-events: none;
+    transition: color 0.3s;
+  }
+
+  &:focus-within svg.search-icon {
+    color: ${props => props.theme.colors.secondary};
+  }
+`;
+
+export const SearchInput = styled.input`
+  width: 100%;
+  padding: 0.8rem 1.25rem 0.8rem 3rem;
+  border-radius: 30px;
+  border: 2px solid ${props => props.theme.colors.primary300};
+  background: ${props => props.theme.colors.backgroundSecondary};
+  color: ${props => props.theme.colors.text800};
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+
+  &::placeholder {
+    color: ${props => props.theme.colors.text200};
+  }
+
+  &:focus {
+    border-color: ${props => props.theme.colors.secondary};
+    box-shadow: 0 4px 12px rgba(4, 211, 97, 0.15);
+  }
+`;
+
+export const SearchMessage = styled.span`
+  color: ${props => props.theme.colors.text500};
+  font-size: 0.825rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-family: Inter, sans-serif;
+  transition: all 0.2s ease;
+`;
+
+export const PremiumShuffleButton = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: ${props => props.theme.colors.secondary};
+  color: ${props => props.theme.colors.white};
+  border: 0;
+  border-radius: 30px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(4, 211, 97, 0.15);
+
+  img, svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    filter: brightness(0) invert(1);
+  }
+
+  &:hover:not(:disabled) {
+    filter: brightness(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(4, 211, 97, 0.25);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @media (max-width: 720px) {
+    padding: 0.8rem;
+    span {
+      display: none;
+    }
+  }
+`;
+
 export { ImageLinearOpacity, HomepageComponent, LatestEpisodes, EpisodeDetails, AllEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, ButtomPrevious, StyledButtom};
