@@ -30,6 +30,8 @@ export function Player() {
   } 
   = usePlayer();
 
+  const episode = episodeList[currentEpisodeIndex];
+
   useEffect(() => {
     if(!audioRef.current) {
       return;
@@ -124,8 +126,6 @@ export function Player() {
       clearPlayerState();
     }
   }
-
-  const episode = episodeList[currentEpisodeIndex];
 
   return (
     <PlayerContainer>
