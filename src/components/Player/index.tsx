@@ -44,10 +44,11 @@ export function Player() {
 
   // Sincroniza metadados e ações de controle com a Media Session do celular (tela de bloqueio / fones)
   useEffect(() => {
-    if (typeof window !== 'undefined' && 'mediaSession' in navigator && episode) {
+    const nav = typeof window !== 'undefined' ? (navigator as any) : null;
+    if (nav && 'mediaSession' in nav && episode) {
       const MediaMetadataClass = (window as any).MediaMetadata;
       if (MediaMetadataClass) {
-        navigator.mediaSession.metadata = new MediaMetadataClass({
+        nav.mediaSession.metadata = new MediaMetadataClass({
           title: episode.title,
           artist: episode.members || 'IGCGMusic',
           album: 'PodCrer',
@@ -62,18 +63,18 @@ export function Player() {
         });
       }
 
-      navigator.mediaSession.setActionHandler('play', () => {
+      nav.mediaSession.setActionHandler('play', () => {
         togglePlay();
       });
-      navigator.mediaSession.setActionHandler('pause', () => {
+      nav.mediaSession.setActionHandler('pause', () => {
         togglePlay();
       });
-      navigator.mediaSession.setActionHandler('previoustrack', () => {
+      nav.mediaSession.setActionHandler('previoustrack', () => {
         if (hasPrevious) {
           playPrevious();
         }
       });
-      navigator.mediaSession.setActionHandler('nexttrack', () => {
+      nav.mediaSession.setActionHandler('nexttrack', () => {
         if (hasNext) {
           playNext();
         }
@@ -83,8 +84,9 @@ export function Player() {
 
   // Sincroniza o estado do play/pause com a Media Session
   useEffect(() => {
-    if (typeof window !== 'undefined' && 'mediaSession' in navigator) {
-      navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
+    const nav = typeof window !== 'undefined' ? (navigator as any) : null;
+    if (nav && 'mediaSession' in nav) {
+      nav.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
     }
   }, [isPlaying]);
 
