@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 //Notificação addQueue
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -15,7 +15,7 @@ import { api } from '../services/api'; //fakeapi
 import { usePlayer } from '../contexts/PlayerContext';
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
 
-import { AllEpisodes, EpisodeDetails, HomepageComponent, LatestEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard } from '../styles/index';
+import { AllEpisodes, EpisodeDetails, HomepageComponent, LatestEpisodes, ImageContainer, AllEpisodesTable, AllEpisodesCard, SearchBarContainer, SearchInputWrapper, SearchInputContainer, SearchInput, SearchMessage, PremiumShuffleButton } from '../styles/index';
 
 type Episode = {
   id: string;
@@ -43,36 +43,30 @@ type HomeProps = {
 export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: HomeProps) {
   const { playList, toggleShuffle } = usePlayer();
 
-  const [ search, setSearch ] = useState('');
-  const filteredMusic = search.length > 0
-  ? shuffleEpisodes.filter(music => music.title.toLowerCase()
-  .replace(/[ç]/,"c")
-  .replace(/[Ç]/,"C")
-  .replace(/[ÈÉÊË]/,"E")
-  .replace(/[èéê]/,"e")
-  .replace(/[ÍÌ]/,"I")
-  .replace(/[ìí]/,"i")
-  .replace(/[ÔÒÓ]/,"O")
-  .replace(/[ôòó]/,"o")
-  .replace(/[ÙÚ]/,"U")
-  .replace(/[úù]/,"u")
-  .replace(/[àáâãäå]/,"a")
-  .replace(/[ÀÁÂÃÄÅ]/,"A")
-  .includes(search.toLowerCase()
-  .replace(/[ç]/,"c")
-  .replace(/[Ç]/,"C")
-  .replace(/[ÈÉÊË]/,"E")
-  .replace(/[èéê]/,"e")
-  .replace(/[ÍÌ]/,"I")
-  .replace(/[ìí]/,"i")
-  .replace(/[ÔÒÓ]/,"O")
-  .replace(/[ôòó]/,"o")
-  .replace(/[ÙÚ]/,"U")
-  .replace(/[úù]/,"u")
-  .replace(/[àáâãäå]/,"a")
-  .replace(/[ÀÁÂÃÄÅ]/,"A")
-  ))
-  : [];
+  const [inputValue, setInputValue] = useState('');
+  const [search, setSearch] = useState('');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSearch(inputValue);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [inputValue]);
+
+  const filteredMusic = useMemo(() => {
+    const query = search.trim();
+    if (query.length < 3) {
+      return [];
+    }
+
+    const cleanString = (str: string) =>
+      str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+    const normalizedQuery = cleanString(query);
+    return shuffleEpisodes.filter(music =>
+      cleanString(music.title).includes(normalizedQuery)
+    );
+  }, [search, shuffleEpisodes]);
 
   const episodeList = [...latestEpisodes, ...allEpisodes];
   
@@ -163,52 +157,33 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
 
         <AllEpisodes>
             <h2>Todos os CDs</h2>
-          <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20}} >
+          <SearchBarContainer>
+            <SearchInputWrapper>
+              <SearchInputContainer>
+                <svg className="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="11" cy="11" r="8"/>
+                  <path d="m21 21-4.3-4.3"/>
+                </svg>
+                <SearchInput
+                  name="SearchMusic"
+                  type="text"
+                  placeholder="Buscar música ou CD..."
+                  onChange={(e) => setInputValue(e.target.value)}
+                  value={inputValue}
+                />
+              </SearchInputContainer>
+              {inputValue.trim().length > 0 && inputValue.trim().length < 3 && (
+                <SearchMessage>Digite pelo menos 3 caracteres para buscar...</SearchMessage>
+              )}
+            </SearchInputWrapper>
 
+            <PremiumShuffleButton onClick={randomplaylist} title="Tocar playlist aleatória">
+              <img src="/shuffle.svg" alt="shuffle" />
+              <span>Playlist Aleatória</span>
+            </PremiumShuffleButton>
+          </SearchBarContainer>
 
-            <input
-             name='SearchMusic'
-             type='text'
-             placeholder='Buscar música...'
-             onChange={(e) => setSearch(e.target.value)}
-             value={search}
-             style={{
-              width: '100%',
-              padding: 7,
-              borderRadius: 50,
-              borderWidth: 2,
-              borderColor: '#b3cdbe',
-              borderStyle: 'solid'
-             }}
-            />
-
-            <button
-
-            style={{
-              backgroundColor: '#b3cdbe',
-              border: 0,
-              borderRadius: 30,
-              paddingRight: 10,
-              paddingLeft: 10,
-              paddingTop: 10,
-              paddingBottom: 10,
-              marginLeft: 10,
-              color:'#fff',
-              fontSize: 16,
-              fontWeight: 'bold',
-              display:'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-
-            onClick={() => { randomplaylist() }}>
-            <img style={{marginLeft: 0}}
-              src="/shuffle.svg"
-              alt="shuffle"/></button>
-
-          </div>
-
-          {search.length > 0 ? <>
+          {search.trim().length >= 3 ? <>
             <AllEpisodesTable cellSpacing={0}>
             <thead>
               <tr>
