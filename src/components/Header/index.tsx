@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { useContext } from 'react';
-import DarkModeToggle from "react-dark-mode-toggle";
+import { ThemeToggle } from '../ThemeToggle';
 
 import format from 'date-fns/format';
 import ptBR from 'date-fns/locale/pt-BR';
@@ -42,10 +42,9 @@ export function Header(props: Props) {
       <p>Desfrutar é bem melhor</p>
       <span>{currentDate}</span>
 
-      <DarkModeToggle
-      onChange={toggleTheme}
-      checked={title === 'dark'}
-      size={40}
+      <ThemeToggle
+        checked={title === 'dark'}
+        onChange={toggleTheme}
       />
 
     </HeaderContainer>
