@@ -42,6 +42,52 @@ export function Player() {
     }
   }, [isPlaying])
 
+  // Sincroniza metadados e ações de controle com a Media Session do celular (tela de bloqueio / fones)
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'mediaSession' in navigator && episode) {
+      const MediaMetadataClass = (window as any).MediaMetadata;
+      if (MediaMetadataClass) {
+        navigator.mediaSession.metadata = new MediaMetadataClass({
+          title: episode.title,
+          artist: episode.members || 'IGCGMusic',
+          album: 'PodCrer',
+          artwork: [
+            { src: episode.thumbnail, sizes: '96x96', type: 'image/png' },
+            { src: episode.thumbnail, sizes: '128x128', type: 'image/png' },
+            { src: episode.thumbnail, sizes: '192x192', type: 'image/png' },
+            { src: episode.thumbnail, sizes: '256x256', type: 'image/png' },
+            { src: episode.thumbnail, sizes: '384x384', type: 'image/png' },
+            { src: episode.thumbnail, sizes: '512x512', type: 'image/png' },
+          ]
+        });
+      }
+
+      navigator.mediaSession.setActionHandler('play', () => {
+        togglePlay();
+      });
+      navigator.mediaSession.setActionHandler('pause', () => {
+        togglePlay();
+      });
+      navigator.mediaSession.setActionHandler('previoustrack', () => {
+        if (hasPrevious) {
+          playPrevious();
+        }
+      });
+      navigator.mediaSession.setActionHandler('nexttrack', () => {
+        if (hasNext) {
+          playNext();
+        }
+      });
+    }
+  }, [episode, hasNext, hasPrevious, playNext, playPrevious, togglePlay]);
+
+  // Sincroniza o estado do play/pause com a Media Session
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
+    }
+  }, [isPlaying]);
+
   function setupProgressListener() {
     audioRef.current.currentTime = 0;
     
@@ -57,6 +103,20 @@ export function Player() {
 
   function handleEpisodesEnded() {
     if(hasNext) {
+      // Obter o índice da próxima faixa de forma síncrona
+      const nextIndex = isShuffling 
+        ? Math.floor(Math.random() * episodeList.length)
+        : currentEpisodeIndex + 1;
+      
+      const nextEpisode = episodeList[nextIndex];
+      if (nextEpisode && audioRef.current) {
+        // Altera o source e dá play sincronicamente antes do navegador suspender o processo em background
+        audioRef.current.src = nextEpisode.url;
+        audioRef.current.load();
+        audioRef.current.play().catch(err => {
+          console.warn("Erro ao reproduzir faixa de forma síncrona no background:", err);
+        });
+      }
       playNext();
     } else {
       clearPlayerState();
