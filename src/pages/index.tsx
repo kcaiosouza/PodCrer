@@ -8,6 +8,8 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+import { BetaModal } from '../components/BetaModal';
+
 import { format, parseISO } from 'date-fns'; //parseISO pega uma string e converte para um Date do JS
 import ptBR from 'date-fns/locale/pt-BR';
 
@@ -121,6 +123,7 @@ export default function Home({ latestEpisodes, allEpisodes, shuffleEpisodes }: H
   return (
     <HomepageComponent>
        <ToastContainer /> 
+       <BetaModal />
       <Head>
         <title>Home | IGCGMusic</title>
       </Head>
